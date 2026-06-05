@@ -23,17 +23,55 @@
         "slug": "niagara-falls-hotels-with-falls-view-canada",
         "page_url": "/niagara-falls-hotels-with-falls-view-canada",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--niagara-falls-hotels-with-falls-view-canada--01/public",
-        "tagline": "The thunder of two waterfalls visible from every high-floor north-facing window."
+        "tagline": "The thunder of two waterfalls visible from every high-floor north-facing window.",
+        "hotels_count": 10
       },
       {
         "name": "Toronto",
         "slug": "toronto-hotels-best-skyline-views",
         "page_url": "/toronto-hotels-best-skyline-views",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--toronto-hotels-best-skyline-views--01/public",
-        "tagline": "CN Tower above Lake Ontario, a glass skyline reflected at every lakeshore window."
+        "tagline": "CN Tower above Lake Ontario, a glass skyline reflected at every lakeshore window.",
+        "hotels_count": 10
       }
     ],
-    "destination_count": 2
+    "destination_count": 2,
+    "hotels_count": 20,
+    "views": [
+      {
+        "name": "CN Tower",
+        "canonical_slug": "cn-tower-view",
+        "destination": "Toronto",
+        "page_url": "/toronto-hotels-best-skyline-views/cn-tower-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--toronto-hotels-best-skyline-views--cn-tower-view--01/public",
+        "intro": "The CN Tower opened in 1976 at 553 metres and held the title of world's tallest free-standing structure for 32 years until the Burj Khalifa surpassed it in 2007. The tower was built by Canadian National Railway to broadcast above Toronto's growing skyline and remains the city's defining vertical landmark — a six-sided concrete shaft with a SkyPod observation level near the top."
+      },
+      {
+        "name": "Lake Ontario",
+        "canonical_slug": "lake-ontario-view",
+        "destination": "Toronto",
+        "page_url": "/toronto-hotels-best-skyline-views/lake-ontario-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--toronto-hotels-best-skyline-views--lake-ontario-view--01/public",
+        "intro": "Lake Ontario is the smallest of the Great Lakes by surface area at 19,000 km², but contains roughly 1,640 km³ of fresh water at depths reaching 244 metres. The lake forms Toronto's entire southern shore for 43 kilometres and is the only one of the Great Lakes entirely uncrossed by a tunnel or bridge between Canadian and American shores."
+      },
+      {
+        "name": "Niagara Falls",
+        "canonical_slug": "niagara-falls-view",
+        "destination": "Niagara Falls",
+        "page_url": "/niagara-falls-hotels-with-falls-view-canada/niagara-falls-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--niagara-falls-hotels-with-falls-view-canada--niagara-falls-view--01/public",
+        "intro": "Niagara Falls is a set of three waterfalls — Horseshoe, American and Bridal Veil — on the Niagara River along the Canada-United States border. The Horseshoe Falls on the Canadian side measure 57 metres high and 670 metres wide, carrying approximately 2,400 m³ of water per second, the highest volumetric flow rate of any waterfall in North America."
+      },
+      {
+        "name": "Toronto Skyline",
+        "canonical_slug": "toronto-skyline-view",
+        "destination": "Toronto",
+        "page_url": "/toronto-hotels-best-skyline-views/toronto-skyline-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--toronto-hotels-best-skyline-views--toronto-skyline-view--01/public",
+        "intro": "Toronto's skyline contains more than 80 buildings over 150 metres, making it the second-largest skyline in North America after New York. The skyline grew rapidly through the 2010s — Toronto added more high-rise floor area than any other North American city in that decade — and is now anchored by the CN Tower at 553 metres and the First Canadian Place at 298 metres."
+      }
+    ],
+    "views_count": 4
   },
   {
     "name": "California",
@@ -59,59 +97,175 @@
         "slug": "half-moon-bay-hotels-best-ocean-view",
         "page_url": "/half-moon-bay-hotels-best-ocean-view",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--half-moon-bay-hotels-best-ocean-view--01/public",
-        "tagline": "Pacific cliffs, Mavericks surf, and Pillar Point on the coast's quietest stretch."
+        "tagline": "Pacific cliffs, Mavericks surf, and Pillar Point on the coast's quietest stretch.",
+        "hotels_count": 4
       },
       {
         "name": "Laguna Beach",
         "slug": "laguna-beach-hotels-ocean-view",
         "page_url": "/laguna-beach-hotels-ocean-view",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--laguna-beach-hotels-ocean-view--01/public",
-        "tagline": "Coves, cliffs, and kelp gardens along Southern California's most painted coast."
+        "tagline": "Coves, cliffs, and kelp gardens along Southern California's most painted coast.",
+        "hotels_count": 0
       },
       {
         "name": "Los Angeles",
         "slug": "hotels-los-angeles-best-views",
         "page_url": "/hotels-los-angeles-best-views",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--hotels-los-angeles-best-views--01/public",
-        "tagline": "Pacific to the west, Hollywood Hills above, the city stretching to every horizon."
+        "tagline": "Pacific to the west, Hollywood Hills above, the city stretching to every horizon.",
+        "hotels_count": 14
       },
       {
         "name": "Napa Valley",
         "slug": "napa-valley-hotels-vineyard-view",
         "page_url": "/napa-valley-hotels-vineyard-view",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--napa-valley-hotels-vineyard-view--01/public",
-        "tagline": "Vineyard ridges in golden light, the Mayacamas at every hilltop turn."
+        "tagline": "Vineyard ridges in golden light, the Mayacamas at every hilltop turn.",
+        "hotels_count": 0
       },
       {
         "name": "Pismo Beach",
         "slug": "pismo-beach-hotels-best-oceanfront-views",
         "page_url": "/pismo-beach-hotels-best-oceanfront-views",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--pismo-beach-hotels-best-oceanfront-views--01/public",
-        "tagline": "California's central coast where Pacific dunes meet vineyard hillsides."
+        "tagline": "California's central coast where Pacific dunes meet vineyard hillsides.",
+        "hotels_count": 10
       },
       {
         "name": "San Diego",
         "slug": "san-diego-hotels-best-beachfront-views",
         "page_url": "/san-diego-hotels-best-beachfront-views",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--san-diego-hotels-best-beachfront-views--01/public",
-        "tagline": "Pacific cliffs, La Jolla coves, and Coronado white sand in Southern California light."
+        "tagline": "Pacific cliffs, La Jolla coves, and Coronado white sand in Southern California light.",
+        "hotels_count": 11
       },
       {
         "name": "San Francisco",
         "slug": "san-francisco-hotels-best-golden-gate-views",
         "page_url": "/san-francisco-hotels-best-golden-gate-views",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--san-francisco-hotels-best-golden-gate-views--01/public",
-        "tagline": "The Golden Gate, the bay, and seven square miles of rolling postcard."
+        "tagline": "The Golden Gate, the bay, and seven square miles of rolling postcard.",
+        "hotels_count": 12
       },
       {
         "name": "Santa Monica",
         "slug": "best-ocean-view-hotels-santa-monica",
         "page_url": "/best-ocean-view-hotels-santa-monica",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--best-ocean-view-hotels-santa-monica--01/public",
-        "tagline": "Pacific Palisades cliffs and the pier silhouette in Los Angeles' clearest ocean light."
+        "tagline": "Pacific Palisades cliffs and the pier silhouette in Los Angeles' clearest ocean light.",
+        "hotels_count": 10
       }
     ],
-    "destination_count": 8
+    "destination_count": 8,
+    "hotels_count": 61,
+    "views": [
+      {
+        "name": "Alcatraz Island",
+        "canonical_slug": "alcatraz-island-view",
+        "destination": "San Francisco",
+        "page_url": "/san-francisco-hotels-best-golden-gate-views/alcatraz-island-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--san-francisco-hotels-best-golden-gate-views--alcatraz-island-view--01/public",
+        "intro": "Alcatraz is a 9-hectare island 2 kilometres off San Francisco that served as a federal prison from 1934 to 1963, holding 1,576 inmates over its 29 years of operation. Before its prison era it was a military fort completed in 1859 — the first major US fortification on the Pacific Coast — and it had earlier carried the first lighthouse on the West Coast, lit in 1854."
+      },
+      {
+        "name": "Balboa Park",
+        "canonical_slug": "balboa-park-view",
+        "destination": "San Diego",
+        "page_url": "/san-diego-hotels-best-beachfront-views/balboa-park-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--san-diego-hotels-best-beachfront-views--balboa-park-view--01/public",
+        "intro": "Balboa Park is a 480-hectare cultural park north of downtown San Diego, established in 1868 and named for Spanish explorer Vasco Núñez de Balboa. The park's Spanish Colonial Revival architecture, designed by Bertram Goodhue, was created for the 1915 Panama-California Exposition and has remained almost entirely intact — making the park one of the largest concentrations of period architecture in the United States."
+      },
+      {
+        "name": "Coronado Island",
+        "canonical_slug": "coronado-island-view",
+        "destination": "San Diego",
+        "page_url": "/san-diego-hotels-best-beachfront-views/coronado-island-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--san-diego-hotels-best-beachfront-views--coronado-island-view--01/public",
+        "intro": "Coronado is a tied island connected to mainland San Diego by a 12-kilometre sand spit called the Silver Strand, with the Coronado Bridge providing the only road link directly across the bay. The Hotel del Coronado on the island's southern beach was built in 1888 and remains one of the largest wooden Victorian hotel buildings still operating in the world."
+      },
+      {
+        "name": "Fisherman's Wharf",
+        "canonical_slug": "fisherman-s-wharf-view",
+        "destination": "San Francisco",
+        "page_url": "/san-francisco-hotels-best-golden-gate-views/fisherman-s-wharf-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--san-francisco-hotels-best-golden-gate-views--fisherman-s-wharf-view--01/public",
+        "intro": "Fisherman's Wharf occupies the northern waterfront between Pier 39 and the Hyde Street Pier, and has been the home of San Francisco's commercial fishing fleet since the 1850s when Italian fishermen first sailed under the Golden Gate to fish the Pacific. The neighbourhood retains roughly 30 working fishing boats and the original cluster of Sicilian-style net repair sheds, alongside a high concentration of tourist attractions developed since the 1970s."
+      },
+      {
+        "name": "Golden Gate Bridge",
+        "canonical_slug": "golden-gate-bridge-view",
+        "destination": "San Francisco",
+        "page_url": "/san-francisco-hotels-best-golden-gate-views/golden-gate-bridge-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--san-francisco-hotels-best-golden-gate-views--golden-gate-bridge-view--01/public",
+        "intro": "The Golden Gate Bridge spans the 1.6-kilometre strait between San Francisco and Marin County, opened in 1937 after four years of construction designed by Joseph Strauss with detailed architectural work by Irving Morrow. The 227-metre main towers and 1,280-metre central span made it the longest suspension bridge in the world for 27 years, and its distinctive 'International Orange' colour was chosen to enhance visibility in San Francisco Bay fog."
+      },
+      {
+        "name": "Griffith Observatory",
+        "canonical_slug": "griffith-observatory-view",
+        "destination": "Los Angeles",
+        "page_url": "/hotels-los-angeles-best-views/griffith-observatory-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--hotels-los-angeles-best-views--griffith-observatory-view--01/public",
+        "intro": "Griffith Observatory occupies the southern slope of Mount Hollywood at 320 metres elevation in Griffith Park, the largest urban park in the western United States. The Art Deco building opened in 1935 with a Zeiss 30-centimetre refracting telescope, which has since hosted more visitors than any other telescope in the world."
+      },
+      {
+        "name": "Hollywood Sign",
+        "canonical_slug": "hollywood-sign-view",
+        "destination": "Los Angeles",
+        "page_url": "/hotels-los-angeles-best-views/hollywood-sign-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--hotels-los-angeles-best-views--hollywood-sign-view--01/public",
+        "intro": "The Hollywood Sign was installed in 1923 on the south face of Mount Lee in the Santa Monica Mountains, originally as a real-estate advertisement reading 'Hollywoodland'. The sign was shortened to its current 'Hollywood' in 1949 and was completely rebuilt in 1978 with steel sheeting that has since become the global icon of the American film industry."
+      },
+      {
+        "name": "Pacific Ocean",
+        "canonical_slug": "pacific-ocean-view",
+        "destination": "Santa Monica",
+        "page_url": "/best-ocean-view-hotels-santa-monica/pacific-ocean-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--best-ocean-view-hotels-santa-monica--pacific-ocean-view--01/public",
+        "intro": "The Pacific Ocean covers 165 million km² — more than all the world's continents combined — and the Santa Monica section of its eastern shore looks west across roughly 9,000 kilometres of unbroken water to Japan. The local stretch is characterised by gentle surf, a wide sandy beach and a marine layer that produces almost daily morning fog through May, June and July."
+      },
+      {
+        "name": "San Diego Bay",
+        "canonical_slug": "san-diego-bay-view",
+        "destination": "San Diego",
+        "page_url": "/san-diego-hotels-best-beachfront-views/san-diego-bay-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--san-diego-hotels-best-beachfront-views--san-diego-bay-view--01/public",
+        "intro": "San Diego Bay is a 31 km² natural harbour on the southern California coast, sheltered behind the long Coronado peninsula. The bay's deep water and protected geometry made it a strategic naval anchorage from 1846 onwards, and Naval Base San Diego remains the largest US Navy surface ship base on the Pacific Coast."
+      },
+      {
+        "name": "San Francisco Bay",
+        "canonical_slug": "san-francisco-bay-view",
+        "destination": "San Francisco",
+        "page_url": "/san-francisco-hotels-best-golden-gate-views/san-francisco-bay-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--san-francisco-hotels-best-golden-gate-views--san-francisco-bay-view--01/public",
+        "intro": "San Francisco Bay is a 4,144 km² shallow estuary on the northern California coast, where the Sacramento and San Joaquin rivers meet the Pacific through the 1.6-kilometre Golden Gate strait. The bay drains 40% of California's surface area and contains five sub-bays — North, Central, South, San Pablo and Suisun — connected through narrow channels."
+      },
+      {
+        "name": "San Francisco Skyline",
+        "canonical_slug": "san-francisco-skyline-view",
+        "destination": "San Francisco",
+        "page_url": "/san-francisco-hotels-best-golden-gate-views/san-francisco-skyline-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--san-francisco-hotels-best-golden-gate-views--san-francisco-skyline-view--01/public",
+        "intro": "San Francisco's skyline rises from the bayfront across the city's seven hills, anchored by the 326-metre Salesforce Tower completed in 2018. The city's strict height limits since the 1985 Downtown Plan have produced an unusually compact CBD, with only 14 buildings exceeding 150 metres concentrated in the South of Market and Financial District."
+      },
+      {
+        "name": "Santa Monica Bay",
+        "canonical_slug": "santa-monica-bay-view",
+        "destination": "Los Angeles",
+        "page_url": "/hotels-los-angeles-best-views/santa-monica-bay-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--hotels-los-angeles-best-views--santa-monica-bay-view--01/public",
+        "intro": "Santa Monica Bay is a 70-kilometre arc on the Los Angeles coast curving from Point Dume to Palos Verdes, with the Santa Monica Mountains forming its northern backdrop. The bay is one of the largest urban bays in the United States and is fronted by some of the country's most heavily used beaches, including Santa Monica, Venice and Manhattan Beach."
+      },
+      {
+        "name": "Santa Monica Pier",
+        "canonical_slug": "santa-monica-pier-view",
+        "destination": "Santa Monica",
+        "page_url": "/best-ocean-view-hotels-santa-monica/santa-monica-pier-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--best-ocean-view-hotels-santa-monica--santa-monica-pier-view--01/public",
+        "intro": "The Santa Monica Pier is a 487-metre wooden pier extending into the Pacific from the foot of Colorado Avenue, completed in 1909 and joined by the smaller Pleasure Pier in 1916. The neon Pacific Park amusement park on the pier opened in 1996 and includes the world's only solar-powered Ferris wheel."
+      }
+    ],
+    "views_count": 13
   },
   {
     "name": "Florida",
@@ -137,23 +291,54 @@
         "slug": "daytona-beach-oceanfront-hotels-view",
         "page_url": "/daytona-beach-oceanfront-hotels-view",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--daytona-beach-oceanfront-hotels-view--01/public",
-        "tagline": "Twenty-three miles of hard-packed sand and Atlantic dawn over the dunes."
+        "tagline": "Twenty-three miles of hard-packed sand and Atlantic dawn over the dunes.",
+        "hotels_count": 0
       },
       {
         "name": "Fort Lauderdale",
         "slug": "fort-lauderdale-hotels-ocean-view",
         "page_url": "/fort-lauderdale-hotels-ocean-view",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--fort-lauderdale-hotels-ocean-view--01/public",
-        "tagline": "Intracoastal canals and Atlantic beaches — the Venice of America."
+        "tagline": "Intracoastal canals and Atlantic beaches — the Venice of America.",
+        "hotels_count": 0
       },
       {
         "name": "Miami Beach",
         "slug": "miami-beach-best-oceanfront-hotels-view",
         "page_url": "/miami-beach-best-oceanfront-hotels-view",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--miami-beach-best-oceanfront-hotels-view--01/public",
-        "tagline": "Art Deco oceanfront and Biscayne Bay — Caribbean light on Atlantic sand."
+        "tagline": "Art Deco oceanfront and Biscayne Bay — Caribbean light on Atlantic sand.",
+        "hotels_count": 18
       }
     ],
-    "destination_count": 3
+    "destination_count": 3,
+    "hotels_count": 18,
+    "views": [
+      {
+        "name": "Art Deco Historic District",
+        "canonical_slug": "art-deco-historic-district-view",
+        "destination": "Miami Beach",
+        "page_url": "/miami-beach-best-oceanfront-hotels-view/art-deco-historic-district-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--miami-beach-best-oceanfront-hotels-view--art-deco-historic-district-view--01/public",
+        "intro": "The Miami Beach Architectural District is the largest concentration of Art Deco buildings in the world, with approximately 800 protected structures within roughly 2.5 km². The bulk were built between 1923 and 1942 by a small group of architects — Henry Hohauser, L. Murray Dixon and Anton Skislewicz — using affordable industrial materials styled in Streamline Moderne, Mediterranean Revival and Tropical Deco."
+      },
+      {
+        "name": "Miami Skyline",
+        "canonical_slug": "miami-skyline-view",
+        "destination": "Miami Beach",
+        "page_url": "/miami-beach-best-oceanfront-hotels-view/miami-skyline-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--miami-beach-best-oceanfront-hotels-view--miami-skyline-view--01/public",
+        "intro": "Mainland Miami's skyline rises across Biscayne Bay from Miami Beach, anchored by the 259-metre Panorama Tower and the 240-metre Aston Martin Residences. The skyline has more than 50 buildings over 150 metres and grew rapidly in the 2010s as Miami became one of the fastest-growing US financial centres."
+      },
+      {
+        "name": "South Beach",
+        "canonical_slug": "south-beach-view",
+        "destination": "Miami Beach",
+        "page_url": "/miami-beach-best-oceanfront-hotels-view/south-beach-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--miami-beach-best-oceanfront-hotels-view--south-beach-view--01/public",
+        "intro": "South Beach occupies the southern 35 blocks of Miami Beach, between 5th and 23rd Streets, on a barrier island originally connected to mainland Miami by the County Causeway in 1920. The neighbourhood was developed largely in the 1930s and contains the world's largest concentration of Art Deco buildings, with around 800 historic structures protected within the Miami Beach Architectural District."
+      }
+    ],
+    "views_count": 3
   }
 ]
