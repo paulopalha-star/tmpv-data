@@ -1,0 +1,153 @@
+[
+  {
+    "hotel_id": "HOTEL-00510",
+    "audit_date": "2025-09-01",
+    "evaluation": "Remote",
+    "promise": {
+      "quote": "Here, the view defines the experience. Our guests can be assured that every harbourfront moment, whether from a private suite or the infinity spa pools, is as breathtaking as promised.",
+      "name": "Michel Chertouh",
+      "title": "Managing Director",
+      "photo": null
+    },
+    "video_url": "",
+    "hero_image": null,
+    "rooms": {
+      "total": 497,
+      "pct_with_view": 60
+    },
+    "moments": [
+      {
+        "text": "Symphony of Lights from the Lobby Lounge — cocktails as the skyline ignites (Bank of China Tower, IFC, The Peak, Observation Wheel in alignment)",
+        "frequency": "Nightly",
+        "daypart": "Evening",
+        "order": 1
+      },
+      {
+        "text": "Sunrise from the CEO Suite's harbour-facing terrace",
+        "frequency": "Daily",
+        "daypart": "Sunrise",
+        "order": 2
+      },
+      {
+        "text": "New Year's fireworks & seasonal drone shows through the Lobby Lounge windows",
+        "frequency": "Seasonal",
+        "daypart": "Evening",
+        "order": 3
+      },
+      {
+        "text": "First-light breakfast at Harbourside as the ferries cross the quiet harbour",
+        "frequency": "Daily",
+        "daypart": "Morning",
+        "order": 4
+      },
+      {
+        "text": "The secluded east-facing infinity spa pools opening onto Victoria Harbour",
+        "frequency": "Daily",
+        "daypart": "Morning",
+        "order": 5
+      }
+    ],
+    "enhancers": [
+      {
+        "name": "Floor-to-ceiling windows",
+        "predicate": "Most rooms",
+        "order": 1
+      },
+      {
+        "name": "Panoramic bathtubs",
+        "predicate": "Most rooms",
+        "order": 2
+      },
+      {
+        "name": "Balconies & terraces",
+        "predicate": "Select rooms",
+        "order": 3
+      },
+      {
+        "name": "Private Pool",
+        "predicate": "Select rooms",
+        "order": 4
+      }
+    ],
+    "best_picks": [
+      {
+        "room_id": "ROOM-00001",
+        "room_name": "Presidential Suite",
+        "description": "A two-storey rooftop suite with a 2,500 sq ft terrace, private infinity pool, and a 270-degree harbour panorama",
+        "order": 1,
+        "image": null
+      },
+      {
+        "room_id": "ROOM-00002",
+        "room_name": "CEO Suite",
+        "description": "Indoor-outdoor living anchored by a harbour-facing infinity daybed and a 3,200 sq ft terrace built for sunrise",
+        "order": 2,
+        "image": null
+      },
+      {
+        "room_id": "ROOM-00003",
+        "room_name": "Terrace Suite",
+        "description": "Two levels with an entertainment room and a generous terrace; panoramic baths facing the harbour",
+        "order": 3,
+        "image": null
+      },
+      {
+        "room_id": "ROOM-00004",
+        "room_name": "Harbourview Corner Suite",
+        "description": "1,075 sq ft, capturing the skyline from multiple angles",
+        "order": 4,
+        "image": null
+      }
+    ],
+    "public_spaces": [
+      {
+        "space_id": "SPACE-00001",
+        "category": "Dining",
+        "name": "Lai Ching Heen",
+        "note": "Michelin Cantonese on jade-inlaid settings, Victoria Harbour through the windows",
+        "order": 1,
+        "image": null
+      },
+      {
+        "space_id": "SPACE-00002",
+        "category": "Dining",
+        "name": "Nobu Hong Kong",
+        "note": "Japanese-Peruvian classics — black cod miso, toro tartare — against the harbour",
+        "order": 2,
+        "image": null
+      },
+      {
+        "space_id": "SPACE-00003",
+        "category": "Dining",
+        "name": "The Steak House",
+        "note": "Charcoal-grilled cuts; a handful of tables look straight out over the harbour",
+        "order": 3,
+        "image": null
+      },
+      {
+        "space_id": "SPACE-00004",
+        "category": "Dining",
+        "name": "Harbourside",
+        "note": "All-day dining and buffet with nearly every table on the harbourfront",
+        "order": 4,
+        "image": null
+      },
+      {
+        "space_id": "SPACE-00005",
+        "category": "Bar & Lounge",
+        "name": "The Lobby Lounge",
+        "note": "Floor-to-ceiling skyline views; a front-row seat for the Symphony of Lights and fireworks",
+        "order": 5,
+        "image": null
+      },
+      {
+        "space_id": "SPACE-00006",
+        "category": "Pool",
+        "name": "Pool Terrace",
+        "note": "An outdoor pool plus secluded east-facing infinity spa pools opening onto the harbour",
+        "order": 6,
+        "image": null
+      }
+    ]
+  }
+]
