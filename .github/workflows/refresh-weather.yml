@@ -1,5 +1,5 @@
 # Actualiza o weather_cache.json de 2 em 2 horas, correndo o refresh_weather.py.
-# O script vive no tmpv-projects; o cache e o hotels.json vivem aqui (tmpv-data).
+# O script está co-localizado aqui (tmpv-data), junto do cache e do hotels.json.
 name: Refresh weather cache
 
 on:
@@ -23,13 +23,6 @@ jobs:
       - name: Checkout tmpv-data
         uses: actions/checkout@v4
 
-      - name: Checkout tmpv-projects (script)
-        uses: actions/checkout@v4
-        with:
-          repository: paulopalha-star/tmpv-projects
-          ref: main
-          path: _scripts
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -40,7 +33,7 @@ jobs:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
           TMPV_DATA_DIR: ${{ github.workspace }}
         run: |
-          python _scripts/refresh_weather.py
+          python refresh_weather.py
 
       - name: Commit and push if changed
         run: |
