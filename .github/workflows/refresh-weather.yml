@@ -1,0 +1,55 @@
+# Actualiza o weather_cache.json de 2 em 2 horas, correndo o refresh_weather.py.
+# O script vive no tmpv-projects; o cache e o hotels.json vivem aqui (tmpv-data).
+name: Refresh weather cache
+
+on:
+  schedule:
+    # De 2 em 2 horas, no minuto 0 (UTC). Ex: 00:00, 02:00, 04:00...
+    - cron: '0 */2 * * *'
+  # Permite também disparar manualmente pelo botão "Run workflow" no GitHub.
+  workflow_dispatch:
+
+# Se um refresh já estiver a correr, não arranca outro por cima.
+concurrency:
+  group: refresh-weather
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout tmpv-data
+        uses: actions/checkout@v4
+
+      - name: Checkout tmpv-projects (script)
+        uses: actions/checkout@v4
+        with:
+          repository: paulopalha-star/tmpv-projects
+          ref: main
+          path: _scripts
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run refresh_weather.py
+        env:
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          TMPV_DATA_DIR: ${{ github.workspace }}
+        run: |
+          python _scripts/refresh_weather.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- data/weather_cache.json; then
+            echo "Cache inalterado — nada a fazer."
+          else
+            git config user.name "tmpv-weather-bot"
+            git config user.email "actions@github.com"
+            git add data/weather_cache.json
+            git commit -m "weather: automated refresh ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
