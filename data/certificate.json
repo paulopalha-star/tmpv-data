@@ -54,21 +54,25 @@
       {
         "name": "Floor-to-ceiling windows",
         "predicate": "Most rooms",
+        "icon": "",
         "order": 1
       },
       {
         "name": "Panoramic bathtubs",
         "predicate": "Most rooms",
+        "icon": "",
         "order": 2
       },
       {
         "name": "Balconies & terraces",
         "predicate": "Select rooms",
+        "icon": "",
         "order": 3
       },
       {
         "name": "Private Pool",
         "predicate": "Select rooms",
+        "icon": "",
         "order": 4
       }
     ],
@@ -78,28 +82,96 @@
         "room_name": "Presidential Suite",
         "description": "A two-storey rooftop suite with a 2,500 sq ft terrace, private infinity pool, and a 270-degree harbour panorama",
         "order": 1,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/0cc85d9d-fc92-4595-49a9-090fffa16c00/public",
+          "alt": "Regent Hong Kong Presidential Suite rooftop terrace with private pool overlooking Victoria Harbour and the skyline at sunset"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/0cc85d9d-fc92-4595-49a9-090fffa16c00/public",
+            "alt": "Regent Hong Kong Presidential Suite rooftop terrace with private pool overlooking Victoria Harbour and the skyline at sunset"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/a8eddd4c-af6a-42c5-118e-79b378009f00/public",
+            "alt": "Regent Hong Kong Presidential Suite lounge at night with fireplace and armchairs facing the illuminated Hong Kong skyline across Victoria Harbour"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/52ce236c-1aff-4386-3a9c-d35e6acf3c00/public",
+            "alt": "Regent Hong Kong Presidential Suite marble bathroom with round soaking tub beside a picture window over Victoria Harbour and the city skyline"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/263fcb57-1c3b-411e-c8c6-b20adddb2b00/public",
+            "alt": "Regent Hong Kong Presidential Suite living room with floor-to-ceiling windows framing Victoria Harbour and the Hong Kong Island skyline"
+          }
+        ]
       },
       {
         "room_id": "ROOM-00002",
         "room_name": "CEO Suite",
         "description": "Indoor-outdoor living anchored by a harbour-facing infinity daybed and a 3,200 sq ft terrace built for sunrise",
         "order": 2,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/e2fce13d-a22a-4787-a409-e49e639ee300/public",
+          "alt": "Regent Hong Kong CEO Suite rooftop terrace with jacuzzi and dining table overlooking Victoria Harbour and the Hong Kong Island skyline"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/e2fce13d-a22a-4787-a409-e49e639ee300/public",
+            "alt": "Regent Hong Kong CEO Suite rooftop terrace with jacuzzi and dining table overlooking Victoria Harbour and the Hong Kong Island skyline"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/122d78c2-e3a1-4560-6252-419586b4fb00/public",
+            "alt": "Regent Hong Kong CEO Suite living room with window-side sofa framing Victoria Harbour and the Hong Kong Convention Centre across the water"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/ecaa9e88-3553-4df0-7b1c-082bd5134800/public",
+            "alt": "Regent Hong Kong CEO Suite lounge at night with harbour-facing windows and the illuminated Hong Kong skyline beyond"
+          }
+        ]
       },
       {
         "room_id": "ROOM-00003",
         "room_name": "Terrace Suite",
         "description": "Two levels with an entertainment room and a generous terrace; panoramic baths facing the harbour",
         "order": 3,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/c6ee8f10-e2c4-4805-c618-0959e9465000/public",
+          "alt": "Regent Hong Kong Terrace Suite private jacuzzi in daylight overlooking Victoria Harbour and the Hong Kong Island skyline"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/c6ee8f10-e2c4-4805-c618-0959e9465000/public",
+            "alt": "Regent Hong Kong Terrace Suite private jacuzzi in daylight overlooking Victoria Harbour and the Hong Kong Island skyline"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/2cc01789-31b3-421f-27a4-a9dd5b931400/public",
+            "alt": "Regent Hong Kong Terrace Suite round bathtub framed by corner windows over the illuminated Hong Kong skyline at night"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/9a090c82-4e56-4183-3a4f-9978dc346800/public",
+            "alt": "Regent Hong Kong Terrace Suite terrace at dusk with dining and lounge seating facing the glowing skyline across Victoria Harbour"
+          }
+        ]
       },
       {
         "room_id": "ROOM-00004",
         "room_name": "Harbourview Corner Suite",
         "description": "1,075 sq ft, capturing the skyline from multiple angles",
         "order": 4,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/2c8800a1-98ea-4c86-cd80-552eac597100/public",
+          "alt": "Regent Hong Kong Corner Suite Harbourview living room at night with panoramic windows on two sides framing the illuminated Hong Kong skyline across Victoria Harbour"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/2c8800a1-98ea-4c86-cd80-552eac597100/public",
+            "alt": "Regent Hong Kong Corner Suite Harbourview living room at night with panoramic windows on two sides framing the illuminated Hong Kong skyline across Victoria Harbour"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/b3896271-6384-4bbc-9e1d-534d794c0900/public",
+            "alt": "Regent Hong Kong Corner Suite Harbourview bedroom in daylight with a wall-to-wall window over Victoria Harbour and the Hong Kong Island skyline"
+          }
+        ]
       }
     ],
     "public_spaces": [
@@ -109,7 +181,8 @@
         "name": "Lai Ching Heen",
         "note": "Michelin Cantonese on jade-inlaid settings, Victoria Harbour through the windows",
         "order": 1,
-        "image": null
+        "image": null,
+        "images": []
       },
       {
         "space_id": "SPACE-00002",
@@ -117,7 +190,24 @@
         "name": "Nobu Hong Kong",
         "note": "Japanese-Peruvian classics — black cod miso, toro tartare — against the harbour",
         "order": 2,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/15bdeaec-2273-4eae-6891-f3c5daa5d400/public",
+          "alt": "Entrance of Nobu at Regent Hong Kong with slatted timber walls and the illuminated Victoria Harbour visible beyond the dining room"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/15bdeaec-2273-4eae-6891-f3c5daa5d400/public",
+            "alt": "Entrance of Nobu at Regent Hong Kong with slatted timber walls and the illuminated Victoria Harbour visible beyond the dining room"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/b0c6c05f-116f-4b3a-4ac8-0ef0ce323200/public",
+            "alt": "Nobu at Regent Hong Kong dining room at night with curved banquettes facing Victoria Harbour and the illuminated Hong Kong skyline"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/511a1f7e-9745-45b9-6895-e258f7cf2800/public",
+            "alt": "Signature yellowtail sashimi with jalapeño at Nobu, Regent Hong Kong"
+          }
+        ]
       },
       {
         "space_id": "SPACE-00003",
@@ -125,7 +215,24 @@
         "name": "The Steak House",
         "note": "Charcoal-grilled cuts; a handful of tables look straight out over the harbour",
         "order": 3,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/a7f22886-a767-450f-6d02-8921759a8d00/public",
+          "alt": "The Steak House at Regent Hong Kong dining room at night with tables along glass walls facing the illuminated Hong Kong skyline across Victoria Harbour"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/a7f22886-a767-450f-6d02-8921759a8d00/public",
+            "alt": "The Steak House at Regent Hong Kong dining room at night with tables along glass walls facing the illuminated Hong Kong skyline across Victoria Harbour"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/e60bb552-1542-4bb6-3c7f-f7cca96dcd00/public",
+            "alt": "The Steak House at Regent Hong Kong marble chef's table set for a private dinner with harbour-view windows on both sides"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/4e4de941-050f-4c32-4bc5-a279c31c1a00/public",
+            "alt": "Collection of artisan Nesmuk steak knives in a leather case at The Steak House, Regent Hong Kong"
+          }
+        ]
       },
       {
         "space_id": "SPACE-00004",
@@ -133,7 +240,24 @@
         "name": "Harbourside",
         "note": "All-day dining and buffet with nearly every table on the harbourfront",
         "order": 4,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/8630fb29-185a-4fbc-f0a0-894851472a00/public",
+          "alt": "Harbourside restaurant at Regent Hong Kong in daylight with double-height windows overlooking Victoria Harbour and the Hong Kong Island skyline"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/8630fb29-185a-4fbc-f0a0-894851472a00/public",
+            "alt": "Harbourside restaurant at Regent Hong Kong in daylight with double-height windows overlooking Victoria Harbour and the Hong Kong Island skyline"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/eda87f6e-a406-44ae-7ab3-343420ddc700/public",
+            "alt": "Harbourside restaurant dining room at Regent Hong Kong with the Hong Kong skyline visible beyond Victoria Harbour"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/322057c3-4e48-4deb-7d3e-3aa3bdfd0000/public",
+            "alt": "Chefs preparing sushi and fresh seafood at the marble buffet counter of Harbourside, Regent Hong Kong"
+          }
+        ]
       },
       {
         "space_id": "SPACE-00005",
@@ -141,7 +265,24 @@
         "name": "The Lobby Lounge",
         "note": "Floor-to-ceiling skyline views; a front-row seat for the Symphony of Lights and fireworks",
         "order": 5,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/1083f0ed-5851-44f6-9f8c-e27cec0f2200/public",
+          "alt": "Regent Hong Kong Lobby Lounge at night with candlelit tables along floor-to-ceiling windows overlooking the illuminated Hong Kong skyline across Victoria Harbour"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/1083f0ed-5851-44f6-9f8c-e27cec0f2200/public",
+            "alt": "Regent Hong Kong Lobby Lounge at night with candlelit tables along floor-to-ceiling windows overlooking the illuminated Hong Kong skyline across Victoria Harbour"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/fc2a47f0-0dda-4d54-5c47-afda5e496d00/public",
+            "alt": "Regent Hong Kong Lobby Lounge dining area in daylight with harbour-facing tables and the Hong Kong Island skyline beyond Victoria Harbour"
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/2c6b1189-b654-4cf6-4313-fa507b4e2e00/public",
+            "alt": "Regent Hong Kong Lobby Lounge with panoramic glass wall over Victoria Harbour, the Hong Kong skyline stretching across the water in daylight"
+          }
+        ]
       },
       {
         "space_id": "SPACE-00006",
@@ -149,7 +290,16 @@
         "name": "Pool Terrace",
         "note": "An outdoor pool plus secluded east-facing infinity spa pools opening onto the harbour",
         "order": 6,
-        "image": null
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/d78f8fab-6fcf-48fb-c536-3fa530ee2e00/public",
+          "alt": "Regent Hong Kong Pool Terrace infinity spa pools at the edge of Victoria Harbour with the Hong Kong Island skyline across the water"
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/d78f8fab-6fcf-48fb-c536-3fa530ee2e00/public",
+            "alt": "Regent Hong Kong Pool Terrace infinity spa pools at the edge of Victoria Harbour with the Hong Kong Island skyline across the water"
+          }
+        ]
       }
     ]
   }
