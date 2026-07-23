@@ -296,5 +296,119 @@
         ]
       }
     ]
+  },
+  {
+    "hotel_id": "HOTEL-00929",
+    "audit_date": "2025-01-15",
+    "evaluation": "On-site",
+    "promise": {
+      "quote": "Paris does not need to be chased here. From our terraces, the Eiffel Tower and the Arc simply keep you company — at breakfast, at dusk, and long after midnight.",
+      "name": "John Doe",
+      "title": "General Manager",
+      "photo": {
+        "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/db1d088f-358c-437d-785e-498ae6594600/public",
+        "alt": "Portrait placeholder"
+      }
+    },
+    "video_url": "",
+    "hero_image": null,
+    "rooms": {
+      "total": 83,
+      "pct_with_view": 30
+    },
+    "moments": [
+      {
+        "text": "Champagne at the rooftop's edge as the Eiffel Tower's hourly light show sets Paris sparkling",
+        "frequency": "Nightly",
+        "daypart": "Evening",
+        "order": 1
+      },
+      {
+        "text": "The panoramic lift's slow reveal of the Arc de Triomphe, floor by floor, on the ride up",
+        "frequency": "Daily",
+        "daypart": "",
+        "order": 2
+      },
+      {
+        "text": "Breakfast on the seasonal rooftop — once the founder's private apartment — as the city wakes below",
+        "frequency": "Seasonal",
+        "daypart": "Morning",
+        "order": 3
+      },
+      {
+        "text": "Sunset rosé at Le Jardin du Raphael, with Paris turning gold in a full 360-degree sweep",
+        "frequency": "Seasonal",
+        "daypart": "Evening",
+        "order": 4
+      },
+      {
+        "text": "The antique writing desk of the Eiffel Tower Terrace Suite, framing the Iron Lady in a perfect tableau",
+        "frequency": "Daily",
+        "daypart": "",
+        "order": 5
+      }
+    ],
+    "enhancers": [
+      {
+        "name": "Balconies & terraces",
+        "predicate": "Select rooms",
+        "icon": "",
+        "order": 1
+      }
+    ],
+    "best_picks": [
+      {
+        "room_id": "ROOM-00005",
+        "room_name": "Eiffel Tower Terrace Suite",
+        "description": "An L-shaped terrace the size of a Parisian apartment, sweeping from the Iron Lady to the Arc and the distant Sacré-Cœur",
+        "order": 1,
+        "image": null,
+        "images": []
+      },
+      {
+        "room_id": "ROOM-00006",
+        "room_name": "The Parisian Suite",
+        "description": "A bronze staircase, a private terrace, and the rare privilege of dining between the Eiffel Tower and the Arc de Triomphe",
+        "order": 2,
+        "image": null,
+        "images": []
+      },
+      {
+        "room_id": "ROOM-00007",
+        "room_name": "Arc de Triomphe Terrace Suite",
+        "description": "A sixth-floor living room with a fireplace, opening onto forty square metres of terrace before Paris's great arch",
+        "order": 3,
+        "image": null,
+        "images": []
+      },
+      {
+        "room_id": "ROOM-00008",
+        "room_name": "The Baverez Suite",
+        "description": "Seventy square metres named for the hotel's founder, with a private terrace and the Eiffel Tower uninterrupted",
+        "order": 4,
+        "image": null,
+        "images": []
+      }
+    ],
+    "public_spaces": [
+      {
+        "space_id": "SPACE-00007",
+        "category": "Dining",
+        "name": "Le Jardin du Raphael",
+        "note": "Seventh-floor rooftop restaurant and bar with a 360-degree panorama of Paris — the Eiffel Tower as dining companion (seasonal)",
+        "order": 1,
+        "image": null,
+        "images": []
+      },
+      {
+        "space_id": "SPACE-00008",
+        "category": "Experience",
+        "name": "Panoramic Lift",
+        "note": "A theatrical ascent: the Arc de Triomphe emerges through the lift's glass, floor by floor, on the way to the rooftop",
+        "order": 2,
+        "image": null,
+        "images": []
+      }
+    ]
   }
 ]
