@@ -311,7 +311,10 @@
       }
     },
     "video_url": "",
-    "hero_image": null,
+    "hero_image": {
+      "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--hero--01/public",
+      "alt": "Arc de Triomphe and Paris rooftops framed by the arched window of Hôtel Raphael's wood-and-brass elevator."
+    },
     "rooms": {
       "total": 83,
       "pct_with_view": 30
@@ -362,32 +365,80 @@
         "room_name": "Eiffel Tower Terrace Suite",
         "description": "An L-shaped terrace the size of a Parisian apartment, sweeping from the Iron Lady to the Arc and the distant Sacré-Cœur",
         "order": 1,
-        "image": null,
-        "images": []
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--eiffel-tower-terrace-suite--01/public",
+          "alt": "Stone balustrade terrace at Hôtel Raphael with wicker seating and Eiffel Tower rising above Paris rooftops."
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--eiffel-tower-terrace-suite--01/public",
+            "alt": "Stone balustrade terrace at Hôtel Raphael with wicker seating and Eiffel Tower rising above Paris rooftops."
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--eiffel-tower-terrace-suite--02/public",
+            "alt": "Louis XV suite with blue and gold armchairs, champagne on a marble table, and Eiffel Tower views at Hôtel Raphael."
+          }
+        ]
       },
       {
         "room_id": "ROOM-00006",
         "room_name": "The Parisian Suite",
         "description": "A bronze staircase, a private terrace, and the rare privilege of dining between the Eiffel Tower and the Arc de Triomphe",
         "order": 2,
-        "image": null,
-        "images": []
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--the-parisian-suite--01/public",
+          "alt": "Terrace breakfast for two overlooking Paris rooftops and the Eiffel Tower at Hôtel Raphael."
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--the-parisian-suite--01/public",
+            "alt": "Terrace breakfast for two overlooking Paris rooftops and the Eiffel Tower at Hôtel Raphael."
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--the-parisian-suite--02/public",
+            "alt": "Parisian Suite at Hôtel Raphael with yellow panelled walls, blue spiral staircase, chandelier and champagne setup."
+          }
+        ]
       },
       {
         "room_id": "ROOM-00007",
         "room_name": "Arc de Triomphe Terrace Suite",
         "description": "A sixth-floor living room with a fireplace, opening onto forty square metres of terrace before Paris's great arch",
         "order": 3,
-        "image": null,
-        "images": []
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--arc-de-triomphe-terrace-suite--01/public",
+          "alt": "Terrace loungers and dining table at Hôtel Raphael with rooftop view of the Arc de Triomphe in Paris."
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--arc-de-triomphe-terrace-suite--01/public",
+            "alt": "Terrace loungers and dining table at Hôtel Raphael with rooftop view of the Arc de Triomphe in Paris."
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--arc-de-triomphe-terrace-suite--02/public",
+            "alt": "Suite bedroom with vanity and arched doorway to a salon with fireplace at Hôtel Raphael, Paris."
+          }
+        ]
       },
       {
         "room_id": "ROOM-00008",
         "room_name": "The Baverez Suite",
         "description": "Seventy square metres named for the hotel's founder, with a private terrace and the Eiffel Tower uninterrupted",
         "order": 4,
-        "image": null,
-        "images": []
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--the-baverez-suite--01/public",
+          "alt": "Balcony table with champagne, fruit and macarons overlooking the Eiffel Tower from The Baverez Suite at Hôtel Raphael, Paris."
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--the-baverez-suite--01/public",
+            "alt": "Balcony table with champagne, fruit and macarons overlooking the Eiffel Tower from The Baverez Suite at Hôtel Raphael, Paris."
+          },
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--room--the-baverez-suite--02/public",
+            "alt": "The Baverez Suite at Hôtel Raphael, Paris, with green paneled walls, red velvet seating, chandeliers and a canopy bed."
+          }
+        ]
       }
     ],
     "public_spaces": [
@@ -397,8 +448,16 @@
         "name": "Le Jardin du Raphael",
         "note": "Seventh-floor rooftop restaurant and bar with a 360-degree panorama of Paris — the Eiffel Tower as dining companion (seasonal)",
         "order": 1,
-        "image": null,
-        "images": []
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--space--le-jardin-du-raphael--01/public",
+          "alt": "Rooftop terrace at Le Jardin du Raphael with yellow chairs, awnings, and Eiffel Tower view over Paris."
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--space--le-jardin-du-raphael--01/public",
+            "alt": "Rooftop terrace at Le Jardin du Raphael with yellow chairs, awnings, and Eiffel Tower view over Paris."
+          }
+        ]
       },
       {
         "space_id": "SPACE-00008",
@@ -406,8 +465,16 @@
         "name": "Panoramic Lift",
         "note": "A theatrical ascent: the Arc de Triomphe emerges through the lift's glass, floor by floor, on the way to the rooftop",
         "order": 2,
-        "image": null,
-        "images": []
+        "image": {
+          "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--space--panoramic-lift--01/public",
+          "alt": "Wood and brass elevator at Hôtel Raphael framing the Arc de Triomphe and Paris rooftops under clear sky."
+        },
+        "images": [
+          {
+            "url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/cert--hotel-raphael--space--panoramic-lift--01/public",
+            "alt": "Wood and brass elevator at Hôtel Raphael framing the Arc de Triomphe and Paris rooftops under clear sky."
+          }
+        ]
       }
     ]
   }
