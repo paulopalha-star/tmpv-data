@@ -3232,9 +3232,17 @@
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--toronto-hotels-best-skyline-views--01/public",
         "tagline": "CN Tower above Lake Ontario, a glass skyline reflected at every lakeshore window.",
         "hotels_count": 10
+      },
+      {
+        "name": "Vancouver Island",
+        "slug": "vancouver-island-hotels-best-views",
+        "page_url": "/vancouver-island-hotels-best-views",
+        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/dest--vancouver-island--01/public",
+        "tagline": "An island of two waters — wild Pacific surf to the west, harbour lights and quiet fjords to the east",
+        "hotels_count": 7
       }
     ],
-    "destination_count": 3,
+    "destination_count": 4,
     "views": [
       {
         "name": "North Shore Mountains",
@@ -3300,6 +3308,15 @@
         "hotels_count": 4
       },
       {
+        "name": "Pacific Ocean",
+        "canonical_slug": "pacific-ocean",
+        "destination": "Vancouver Island",
+        "page_url": "/vancouver-island-hotels-best-views/pacific-ocean-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view-default--ocean-sea--01/public",
+        "intro": "On Vancouver Island's west coast the Pacific arrives uninterrupted — the next landfall west of Tofino is Japan. Summer brings glassy surf and whale spouts; from November to February, storm fronts stack ten-metre swells against the beaches, and watching them became the region's signature season.",
+        "hotels_count": 3
+      },
+      {
         "name": "Coal Harbour",
         "canonical_slug": "coal-harbour-view",
         "destination": "Vancouver",
@@ -3318,7 +3335,7 @@
         "hotels_count": 1
       }
     ],
-    "views_count": 9
+    "views_count": 10
   },
   {
     "name": "United States",
