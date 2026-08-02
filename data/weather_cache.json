@@ -1,5 +1,5 @@
 {
-  "generated_at": 1785698564,
+  "generated_at": 1785703418,
   "source": "openweathermap 2.5",
   "destinations": {
     "abu-dhabi-hotels-best-views": {
@@ -2221,6 +2221,26 @@
         "n_hotels": 11
       },
       "fetched_at": 1785698563
+    },
+    "kyoto-hotels-best-views": {
+      "temp_c": 28.43,
+      "feels_like_c": 33.57,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 10,
+      "visibility_m": 10000,
+      "sunrise": 1785701241,
+      "sunset": 1785751134,
+      "view_index": 90,
+      "view_rating": "Perfect",
+      "timezone": "Asia/Tokyo",
+      "coords": {
+        "lat": 34.99889,
+        "lng": 135.76459,
+        "n_hotels": 16
+      },
+      "fetched_at": 1785703416
     }
   }
 }
