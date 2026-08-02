@@ -28,6 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent.resolve()
 DEST_CSV = ROOT / "data" / "destinations.csv"
 TMPV_DATA_DIR = Path(os.getenv("TMPV_DATA_DIR", "/Users/paulopalha/projetos/tmpv-data"))
+DESTS_JSON = TMPV_DATA_DIR / "data" / "destinations.json"
 HOTELS_JSON = TMPV_DATA_DIR / "data" / "hotels.json"
 OUT_JSON = TMPV_DATA_DIR / "data" / "weather_cache.json"
 
@@ -124,9 +125,9 @@ def rating_for(index):
 
 
 # ── data loading ────────────────────────────────────────────────────────
-def load_destination_meta(csv_path: Path) -> dict:
-    """Return {destination_name: {"slug": ..., "timezone": ...}} from
-    destinations.csv. Two-row header: group titles + column names."""
+def _load_meta_from_csv(csv_path: Path) -> dict:
+    """{destination_name: {"slug", "timezone"}} do destinations.csv
+    (snapshot colocado no repo). Two-row header: group titles + column names."""
     meta = {}
     with csv_path.open(encoding="utf-8") as f:
         rows = list(csv.reader(f))
@@ -144,6 +145,36 @@ def load_destination_meta(csv_path: Path) -> dict:
         page_url = r[11].strip()  # e.g. "/london-hotel-views"
         slug = page_url.strip("/")
         meta[name] = {"slug": slug, "timezone": timezone}
+    return meta
+
+
+def load_destination_meta(csv_path: Path, json_path: Path = DESTS_JSON) -> dict:
+    """{destination_name: {"slug", "timezone"}} — fonte PRIMÁRIA: o
+    destinations.json do próprio repo (sempre atual via «Actualizar dados»).
+
+    Transição sem quebra (2026-07-30, correção do buraco Vancouver Island):
+      · timezone: o export ainda não traz o campo `timezone` (entra no
+        próximo lote de Apps Script — buildDestinations_); até lá cai no
+        valor do CSV para o mesmo destino.
+      · UNIÃO: destinos que só existam no CSV também entram — durante a
+        transição nenhum destino se perde, venha de onde vier.
+    O CSV congelado reforma-se DEPOIS de o JSON trazer timezone e de um
+    ciclo de cron validado a ler do JSON (decisão do Paulo)."""
+    csv_meta = _load_meta_from_csv(csv_path) if csv_path.exists() else {}
+    if not json_path or not json_path.exists():
+        return csv_meta
+    meta = {}
+    dests = json.loads(json_path.read_text(encoding="utf-8"))
+    for d in dests:
+        name = (d.get("destination") or "").strip()
+        slug = (d.get("slug") or "").strip().strip("/")
+        if not name or not slug:
+            continue
+        tz = (d.get("timezone") or "").strip() \
+             or csv_meta.get(name, {}).get("timezone", "")
+        meta[name] = {"slug": slug, "timezone": tz}
+    for name, m in csv_meta.items():          # união — só-CSV não se perde
+        meta.setdefault(name, m)
     return meta
 
 
@@ -228,14 +259,39 @@ def build_destination_entry(dest_name: str, coords_list: list, meta: dict) -> di
 
 
 def main():
-    print(f"→ loading destinations.csv ({DEST_CSV})")
-    meta = load_destination_meta(DEST_CSV)
-    print(f"  {len(meta)} destinos Published")
+    import argparse
+    ap = argparse.ArgumentParser(description="Build weather_cache.json")
+    ap.add_argument("--dest", help="processa SÓ este destino e FUNDE no cache "
+                                    "existente (usado pela publicação da Central, "
+                                    "passo 14 — não espera pelo cron de 2h)")
+    ap.add_argument("--coords", help="lat,lng do centróide — dispensa hotels.json/CSV "
+                                     "(a Central passa as coords que já tem no estado, "
+                                     "logo ao publicar, sem esperar pelo export)")
+    ap.add_argument("--timezone", help="timezone IANA (com --coords)")
+    ap.add_argument("--slug", help="slug do destino (com --coords)")
+    args = ap.parse_args()
 
-    print(f"→ loading hotels.json ({HOTELS_JSON})")
-    hotels = load_hotels(HOTELS_JSON)
-    groups = group_hotels_by_destination(hotels)
-    print(f"  {len(hotels)} hotéis, {len(groups)} destinos únicos c/ Active+coords")
+    # modo directo: coords explícitas → não precisa de hotels.json nem meta
+    if args.coords:
+        if not (args.dest and args.timezone and args.slug):
+            sys.exit("❌ --coords exige --dest, --timezone e --slug")
+        lat, lng = (float(x) for x in args.coords.split(","))
+        groups = {args.dest: [(lat, lng)]}
+        meta = {args.dest: {"slug": args.slug.strip("/"), "timezone": args.timezone}}
+        print(f"→ direct mode: {args.dest} @ {lat},{lng} ({args.timezone})")
+    else:
+        print(f"→ loading destination meta")
+        meta = load_destination_meta(DEST_CSV)
+        print(f"  {len(meta)} destinos (destinations.json ∪ CSV)")
+
+        print(f"→ loading hotels.json ({HOTELS_JSON})")
+        hotels = load_hotels(HOTELS_JSON)
+        groups = group_hotels_by_destination(hotels)
+        print(f"  {len(hotels)} hotéis, {len(groups)} destinos únicos c/ Active+coords")
+        if args.dest:
+            groups = {k: v for k, v in groups.items() if k == args.dest}
+            if not groups:
+                sys.exit(f"❌ --dest {args.dest!r}: sem hotéis Active com coords em hotels.json")
 
     missing_meta = sorted(g for g in groups if g not in meta)
     if missing_meta:
@@ -263,6 +319,13 @@ def main():
             errors.append((dest_name, str(e)))
             print(f"  [{i:>3}/{total}] {dest_name!r}: ERROR {e}", file=sys.stderr)
         time.sleep(CALL_INTERVAL_S)
+
+    # modo --dest: FUNDE no cache existente (nunca apaga os outros destinos)
+    if args.dest and OUT_JSON.exists():
+        prev = json.loads(OUT_JSON.read_text(encoding="utf-8")).get("destinations", {})
+        prev.update(entries)
+        entries = prev
+        print(f"  merged into existing cache ({len(entries)} total)")
 
     payload = {
         "generated_at": int(time.time()),
