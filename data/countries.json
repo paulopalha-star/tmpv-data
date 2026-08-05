@@ -113,9 +113,17 @@
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--cape-town-best-hotels-view--01/public",
         "tagline": "Table Mountain framing the city, the Atlantic on three sides.",
         "hotels_count": 19
+      },
+      {
+        "name": "Durban",
+        "slug": "durban-hotels-best-ocean-views",
+        "page_url": "/durban-hotels-best-ocean-views",
+        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/dest--durban--01/public",
+        "tagline": "From uShaka Marine World to Suncoast, the Golden Mile puts the Indian Ocean directly in front of Durban's hotel windows.",
+        "hotels_count": 5
       }
     ],
-    "destination_count": 1,
+    "destination_count": 2,
     "views": [
       {
         "name": "Table Mountain",
@@ -136,6 +144,15 @@
         "hotels_count": 9
       },
       {
+        "name": "Golden Mile",
+        "canonical_slug": "golden-mile-view",
+        "destination": "Durban",
+        "page_url": "/durban-hotels-best-ocean-views/golden-mile-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--durban-hotels-best-ocean-views--golden-mile-view--01/public",
+        "intro": "Durban's beachfront promenade runs from uShaka Marine World to the Suncoast casino, with a rank of hotel towers standing metres from the sand. From sea-facing floors the frame holds surfers at New Pier, the paved promenade below, and container ships waiting offshore for the port.",
+        "hotels_count": 5
+      },
+      {
         "name": "Victoria & Alfred Waterfront",
         "canonical_slug": "victoria-alfred-waterfront-view",
         "destination": "Cape Town",
@@ -154,7 +171,7 @@
         "hotels_count": 2
       }
     ],
-    "views_count": 4
+    "views_count": 5
   },
   {
     "name": "Australia",
@@ -1472,20 +1489,20 @@
         "hotels_count": 28
       },
       {
-        "name": "Saint-Tropez",
-        "slug": "saint-tropez-luxury-hotels-best-centre-ville-sea-views",
-        "page_url": "/saint-tropez-luxury-hotels-best-centre-ville-sea-views",
-        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--saint-tropez-luxury-hotels-best-centre-ville-sea-views--01/public",
-        "tagline": "Côte d'Azur harbour, ochre houses, and Mediterranean light that defined a century.",
-        "hotels_count": 9
-      },
-      {
         "name": "Marseille",
         "slug": "hotels-marseille-best-view",
         "page_url": "/hotels-marseille-best-view",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--hotels-marseille-best-view--01/public",
         "tagline": "France's oldest port, Mediterranean cliffs, and the Calanques at every horizon.",
         "hotels_count": 8
+      },
+      {
+        "name": "Saint-Tropez",
+        "slug": "saint-tropez-luxury-hotels-best-centre-ville-sea-views",
+        "page_url": "/saint-tropez-luxury-hotels-best-centre-ville-sea-views",
+        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--saint-tropez-luxury-hotels-best-centre-ville-sea-views--01/public",
+        "tagline": "Côte d'Azur harbour, ochre houses, and Mediterranean light that defined a century.",
+        "hotels_count": 7
       },
       {
         "name": "Nice",
@@ -1597,15 +1614,6 @@
         "hotels_count": 2
       },
       {
-        "name": "Pampelonne Beach",
-        "canonical_slug": "pampelonne-beach-view",
-        "destination": "Saint-Tropez",
-        "page_url": "/saint-tropez-luxury-hotels-best-centre-ville-sea-views/pampelonne-beach-view",
-        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--saint-tropez-luxury-hotels-best-centre-ville-sea-views--pampelonne-beach-view--01/public",
-        "intro": "Pampelonne is a 4.5-kilometre crescent of pale sand stretching south from Saint-Tropez to Cap Camarat on the French Riviera. The beach has been the centre of Saint-Tropez's social life since 1955 when Brigitte Bardot filmed Et Dieu Créa la Femme along its dunes, and Club 55 — the original beach club — still operates on its original 1955 wooden terrace.",
-        "hotels_count": 2
-      },
-      {
         "name": "Seine River",
         "canonical_slug": "seine-river-view",
         "destination": "Paris",
@@ -1621,6 +1629,15 @@
         "page_url": "/paris-hotels-eiffel-tower-view/notre-dame-cathedral-view",
         "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--paris-hotels-eiffel-tower-view--notre-dame-cathedral-view--01/public",
         "intro": "Notre-Dame de Paris was built between 1163 and approximately 1345 on the Île de la Cité. The cathedral introduced the flying buttress as a structural element — a system that transferred the weight of the walls to external supports, allowing the interior walls to be reduced to glass. It reopened in December 2024 after the fire of April 2019.",
+        "hotels_count": 1
+      },
+      {
+        "name": "Pampelonne Beach",
+        "canonical_slug": "pampelonne-beach-view",
+        "destination": "Saint-Tropez",
+        "page_url": "/saint-tropez-luxury-hotels-best-centre-ville-sea-views/pampelonne-beach-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--saint-tropez-luxury-hotels-best-centre-ville-sea-views--pampelonne-beach-view--01/public",
+        "intro": "Pampelonne is a 4.5-kilometre crescent of pale sand stretching south from Saint-Tropez to Cap Camarat on the French Riviera. The beach has been the centre of Saint-Tropez's social life since 1955 when Brigitte Bardot filmed Et Dieu Créa la Femme along its dunes, and Club 55 — the original beach club — still operates on its original 1955 wooden terrace.",
         "hotels_count": 1
       },
       {
@@ -1934,19 +1951,19 @@
     "hero_image_url": "",
     "destinations": [
       {
-        "name": "Rome",
-        "slug": "rome-luxury-hotels-best-city-views",
-        "page_url": "/rome-luxury-hotels-best-city-views",
-        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--rome-luxury-hotels-best-city-views--01/public",
-        "tagline": "Seven hills, baroque domes, and the Tiber under terracotta-soaked evening light.",
-        "hotels_count": 19
-      },
-      {
         "name": "Amalfi Coast",
         "slug": "amalfi-coast-hotels-best-view",
         "page_url": "/amalfi-coast-hotels-best-view",
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--amalfi-coast-hotels-best-view--01/public",
         "tagline": "Pastel villages perched above the Tyrrhenian, Positano to Vietri sul Mare.",
+        "hotels_count": 18
+      },
+      {
+        "name": "Rome",
+        "slug": "rome-luxury-hotels-best-city-views",
+        "page_url": "/rome-luxury-hotels-best-city-views",
+        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/destination--rome-luxury-hotels-best-city-views--01/public",
+        "tagline": "Seven hills, baroque domes, and the Tiber under terracotta-soaked evening light.",
         "hotels_count": 18
       },
       {
