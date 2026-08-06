@@ -23,6 +23,11 @@ jobs:
       - name: Checkout tmpv-data
         uses: actions/checkout@v4
 
+      - name: Sync to the real tip of main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
