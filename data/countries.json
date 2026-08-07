@@ -121,9 +121,17 @@
         "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/dest--durban--01/public",
         "tagline": "From uShaka Marine World to Suncoast, the Golden Mile puts the Indian Ocean directly in front of Durban's hotel windows.",
         "hotels_count": 5
+      },
+      {
+        "name": "Umhlanga",
+        "slug": "umhlanga-hotels-best-ocean-views",
+        "page_url": "/umhlanga-hotels-best-ocean-views",
+        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/dest--umhlanga--01/public",
+        "tagline": "The red-and-white lighthouse, lit since 1954, stands on the rocks directly below the Oyster Box and the Beverly Hills.",
+        "hotels_count": 4
       }
     ],
-    "destination_count": 2,
+    "destination_count": 3,
     "views": [
       {
         "name": "Table Mountain",
@@ -162,6 +170,24 @@
         "hotels_count": 5
       },
       {
+        "name": "Indian Ocean",
+        "canonical_slug": "indian-ocean",
+        "destination": "Umhlanga",
+        "page_url": "/umhlanga-hotels-best-ocean-views/indian-ocean-view",
+        "image_url": "",
+        "intro": "A warm-water coastline of golden sand and rolling surf, traced end to end by the paved O'Connor Promenade. Ships bound for Durban harbour sit on the horizon, and humpback whales and dolphins pass offshore in season.",
+        "hotels_count": 4
+      },
+      {
+        "name": "uMhlanga Lighthouse",
+        "canonical_slug": "umhlanga-lighthouse-view",
+        "destination": "Umhlanga",
+        "page_url": "/umhlanga-hotels-best-ocean-views/umhlanga-lighthouse-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view--umhlanga-hotels-best-ocean-views--umhlanga-lighthouse-view--01/public",
+        "intro": "First lit on 25 November 1954 and built in under five days, the 21-metre concrete tower — white below, red above — stands directly on the rocks of the main beach, with the Whalebone Pier a few steps to the north.",
+        "hotels_count": 3
+      },
+      {
         "name": "Robben Island",
         "canonical_slug": "robben-island-view",
         "destination": "Cape Town",
@@ -171,7 +197,7 @@
         "hotels_count": 2
       }
     ],
-    "views_count": 5
+    "views_count": 7
   },
   {
     "name": "Australia",
