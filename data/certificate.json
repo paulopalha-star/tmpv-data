@@ -2020,5 +2020,131 @@
         ]
       }
     ]
+  },
+  {
+    "hotel_id": "HOTEL-01460",
+    "audit_date": "2025-05-01",
+    "evaluation": "Remote",
+    "promise": {
+      "quote": "the Museum Hotel is not only inspired by the area’s natural landscape; it has managed to capture the breathtaking views of it as well. No matter where you stand on the hotel’s grounds, you’re offered an expansive view of Cappadocia, which — being a UNESCO world heritage site — is truly one of a kind.",
+      "name": "Nimet Gül Özcaş",
+      "title": "Sales Manager",
+      "photo": null
+    },
+    "video_url": "",
+    "hero_image": null,
+    "rooms": {
+      "total": 34,
+      "pct_with_view": 100
+    },
+    "moments": [
+      {
+        "text": "Hot-air balloons drift across the valley on the early-morning flights, seen from bed and terrace",
+        "frequency": "Daily",
+        "daypart": "Sunrise",
+        "order": 1
+      },
+      {
+        "text": "Swimming in the Hot Roman Pool, kept at 30-32°C, while snow falls over the rock",
+        "frequency": "Seasonal",
+        "daypart": "All day",
+        "order": 2
+      },
+      {
+        "text": "Sunset over the valley from Lil'a's open-air terrace",
+        "frequency": "Daily",
+        "daypart": "Sunset",
+        "order": 3
+      },
+      {
+        "text": "Valley dining by campfire under the stars, ancient stone arches framing the dark",
+        "frequency": "Occasional",
+        "daypart": "Night",
+        "order": 4
+      }
+    ],
+    "enhancers": [
+      {
+        "name": "Balconies & terraces",
+        "predicate": "Most rooms",
+        "icon": "",
+        "order": 1
+      },
+      {
+        "name": "Panoramic bathtubs",
+        "predicate": "Select rooms",
+        "icon": "",
+        "order": 2
+      },
+      {
+        "name": "Private Pool",
+        "predicate": "Select rooms",
+        "icon": "",
+        "order": 3
+      }
+    ],
+    "best_picks": [
+      {
+        "room_id": "ROOM-00034",
+        "room_name": "Sultan's Cave Suite",
+        "description": "A 110 m² cave suite cut into the hillside and entered through its own tunnel, with the White and Red valleys falling away below; the valley is in frame from the living room and from the tub, and a window in the bedroom ceiling opens straight onto the sky and the dawn balloons.",
+        "order": 1,
+        "image": null,
+        "images": []
+      },
+      {
+        "room_id": "ROOM-00035",
+        "room_name": "Mystic Pool Suite",
+        "description": "Set on the valley edge with a private pool and fireplace facing the drop; from the pool the hot-air balloons rise across the valley at dawn.",
+        "order": 2,
+        "image": null,
+        "images": []
+      },
+      {
+        "room_id": "ROOM-00036",
+        "room_name": "Tekeli Cave Suite",
+        "description": "A 94 m² rock-cut suite with high ceilings and broad windows onto the Cappadocian valley; the view carries through to the tub in the bath.",
+        "order": 3,
+        "image": null,
+        "images": []
+      },
+      {
+        "room_id": "ROOM-00037",
+        "room_name": "Taşköşk Suite",
+        "description": "A suite with a private balcony over the Cappadocia plateau, high ceilings and broad windows onto the valley; the plateau stays in view from the tub and the massage room.",
+        "order": 4,
+        "image": null,
+        "images": []
+      }
+    ],
+    "public_spaces": [
+      {
+        "space_id": "SPACE-00027",
+        "category": "Dining",
+        "name": "Lil'a Restaurant",
+        "note": "An open-air terrace with panoramic valley views and forgotten Anatolian flavours",
+        "order": 1,
+        "image": null,
+        "images": []
+      },
+      {
+        "space_id": "SPACE-00028",
+        "category": "Pool",
+        "name": "Hot Roman Pool",
+        "note": "Kept at 30-32°C year-round — swim while the balloons drift at dawn",
+        "order": 2,
+        "image": null,
+        "images": []
+      },
+      {
+        "space_id": "SPACE-00029",
+        "category": "Spa & Wellness",
+        "name": "Wellness Center",
+        "note": "Massage treatments framed by sweeping views over the valley",
+        "order": 3,
+        "image": null,
+        "images": []
+      }
+    ]
   }
 ]
