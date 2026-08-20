@@ -1,19 +1,21 @@
 # Actualiza o weather_cache.json de 2 em 2 horas, correndo o refresh_weather.py.
 # O script está co-localizado aqui (tmpv-data), junto do cache e do hotels.json.
 name: Refresh weather cache
-
 on:
   schedule:
     # De 2 em 2 horas, no minuto 0 (UTC). Ex: 00:00, 02:00, 04:00...
     - cron: '0 */2 * * *'
   # Permite também disparar manualmente pelo botão "Run workflow" no GitHub.
   workflow_dispatch:
-
+  # Dispara quando o «Actualizar dados» empurra um destino novo — o tempo
+  # entra no CDN em ~1-2 min, sem esperar pelo ciclo de 2h.
+  push:
+    paths:
+      - 'data/destinations.json'
 # Se um refresh já estiver a correr, não arranca outro por cima.
 concurrency:
   group: refresh-weather
   cancel-in-progress: false
-
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -22,24 +24,20 @@ jobs:
     steps:
       - name: Checkout tmpv-data
         uses: actions/checkout@v4
-
       - name: Sync to the real tip of main
         run: |
           git fetch origin main
           git reset --hard origin/main
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Run refresh_weather.py
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
           TMPV_DATA_DIR: ${{ github.workspace }}
         run: |
           python refresh_weather.py
-
       - name: Commit and push if changed
         run: |
           if git diff --quiet -- data/weather_cache.json; then
