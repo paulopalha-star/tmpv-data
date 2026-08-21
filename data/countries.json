@@ -2042,6 +2042,14 @@
         "hotels_count": 10
       },
       {
+        "name": "Puglia",
+        "slug": "puglia-hotels-best-views",
+        "page_url": "/puglia-hotels-best-views",
+        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/dest--puglia--01/public",
+        "tagline": "The heel of Italy is also its flattest region, which keeps the views long: olive groves reaching the horizon, white towns rising above the plain, and sea on both the Adriatic and Ionian sides.",
+        "hotels_count": 9
+      },
+      {
         "name": "Lake Garda",
         "slug": "lake-garda-hotels-best-views-romantic-holidays",
         "page_url": "/lake-garda-hotels-best-views-romantic-holidays",
@@ -2058,8 +2066,17 @@
         "hotels_count": 0
       }
     ],
-    "destination_count": 8,
+    "destination_count": 9,
     "views": [
+      {
+        "name": "Adriatic Sea",
+        "canonical_slug": "adriatic-sea",
+        "destination": "Puglia",
+        "page_url": "/puglia-hotels-best-views/adriatic-sea-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view-default--ocean-sea--01/public",
+        "intro": "Puglia's Adriatic edge runs from the Gargano's white cliffs past Polignano, Monopoli and the beaches below Ostuni. It is a working coastline of harbours, coves and blue-flag water, mostly seen from low limestone terraces.",
+        "hotels_count": 9
+      },
       {
         "name": "Florence Cathedral (Duomo)",
         "canonical_slug": "florence-cathedral-duomo-view",
@@ -2205,6 +2222,15 @@
         "hotels_count": 0
       },
       {
+        "name": "Ionian Sea — Salento Coast",
+        "canonical_slug": "ionian-sea-salento-coast",
+        "destination": "Puglia",
+        "page_url": "/puglia-hotels-best-views/ionian-sea-salento-coast-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view-default--ocean-sea--01/public",
+        "intro": "Puglia's other sea: the Ionian runs down the Salento's western edge, from the Gulf of Taranto past Porto Cesareo and Gallipoli to Santa Maria di Leuca. Shallower and calmer than the Adriatic, it is the coast that faces the sunset.",
+        "hotels_count": 0
+      },
+      {
         "name": "Milan Cathedral (Duomo)",
         "canonical_slug": "milan-cathedral-duomo-view",
         "destination": "Milan",
@@ -2250,7 +2276,7 @@
         "hotels_count": 0
       }
     ],
-    "views_count": 21
+    "views_count": 23
   },
   {
     "name": "Netherlands",
