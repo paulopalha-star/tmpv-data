@@ -4494,9 +4494,28 @@
     "meta_title": "Ecuador Hotel Views — The Most Perfect View",
     "meta_description": "Hotels chosen for the view — Quito's volcano-ringed rooftops, Galápagos shorelines, cloud forest canopies and the bends of Amazon headwater rivers.",
     "hero_image_url": "",
-    "destinations": [],
-    "destination_count": 0,
-    "views": [],
-    "views_count": 0
+    "destinations": [
+      {
+        "name": "Galapagos",
+        "slug": "galapagos-hotels-best-views",
+        "page_url": "/galapagos-hotels-best-views",
+        "hero_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/dest--galapagos--01/public",
+        "tagline": "In the green highlands above Puerto Ayora, giant tortoises roam freely through private reserves like El Chato, and the lodges up there stand inside their grazing grounds.",
+        "hotels_count": 3
+      }
+    ],
+    "destination_count": 1,
+    "views": [
+      {
+        "name": "Pacific Ocean",
+        "canonical_slug": "pacific-ocean",
+        "destination": "Galapagos",
+        "page_url": "/galapagos-hotels-best-views/pacific-ocean-view",
+        "image_url": "https://imagedelivery.net/2OF4pysBBjjHOcaf1qtDOQ/view-default--ocean-sea--01/public",
+        "intro": "The open water that surrounds every island of the archipelago — an unbroken blue horizon fronting beach hotels and visible in the distance from highland lodges.",
+        "hotels_count": 3
+      }
+    ],
+    "views_count": 1
   }
 ]
