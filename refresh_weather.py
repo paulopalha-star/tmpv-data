@@ -31,6 +31,7 @@ TMPV_DATA_DIR = Path(os.getenv("TMPV_DATA_DIR", "/Users/paulopalha/projetos/tmpv
 DESTS_JSON = TMPV_DATA_DIR / "data" / "destinations.json"
 HOTELS_JSON = TMPV_DATA_DIR / "data" / "hotels.json"
 OUT_JSON = TMPV_DATA_DIR / "data" / "weather_cache.json"
+AIRPORTS_JSON = ROOT / "cache" / "airport_candidates_by_destination.json"
 
 # ── env ─────────────────────────────────────────────────────────────────
 def load_dotenv(path: Path) -> None:
@@ -110,6 +111,41 @@ def compute_view_index(clouds_pct, condition_id, visibility_m, sunrise, sunset, 
     base -= _precip_penalty(condition_id)
     score = max(0.0, base) * _visibility_factor(visibility_m)
     return int(round(max(0.0, min(100.0, score))))
+
+
+# ── portão de coerência da visibilidade (Fase 0 #8a, decisão Paulo) ──────
+# A OWM /2.5/weather às vezes devolve visibilidade baixa e ERRADA para um ponto
+# (ex.: Porto, station "Cavaco" → ~500 m com céu de nuvens quebradas; weather.com ~14 km).
+# Portão: visibility_m < 3000 SEM condição que a explique (nevoeiro/neblina/bruma/chuva/
+# neve/trovoada = ids 2xx/3xx/5xx/6xx/7xx) → leitura SUSPEITA. Só o céu limpo/nuvens
+# (800–804) com <3 km é que é incoerente.
+VIS_SUSPECT_M = 3000
+
+def _visibility_suspect(visibility_m, condition_id):
+    if visibility_m is None:
+        return False   # ausência trata-se à parte (não é "suspeita", é "sem valor")
+    try:
+        v = float(visibility_m); cid = int(condition_id or 800)
+    except (TypeError, ValueError):
+        return False
+    return v < VIS_SUSPECT_M and 800 <= cid <= 804   # baixa + céu limpo/nuvens = incoerente
+
+
+def load_airport_coords(path: Path) -> dict:
+    """{destination_name: (lat, lng)} do aeroporto PRINCIPAL (1º candidato) —
+    cache/airport_candidates_by_destination.json (mesma fonte das distâncias)."""
+    if not path.exists():
+        return {}
+    out = {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    for dest, cands in (data.items() if isinstance(data, dict) else []):
+        if isinstance(cands, list) and cands:
+            a = cands[0]
+            try:
+                out[dest] = (float(a["lat"]), float(a["lng"]))
+            except (KeyError, TypeError, ValueError):
+                continue
+    return out
 
 
 def rating_for(index):
@@ -220,7 +256,8 @@ def fetch_weather(lat: float, lng: float) -> dict:
 
 
 # ── build ───────────────────────────────────────────────────────────────
-def build_destination_entry(dest_name: str, coords_list: list, meta: dict) -> dict:
+def build_destination_entry(dest_name: str, coords_list: list, meta: dict,
+                            airports: dict | None = None) -> dict:
     lat, lng = centroid(coords_list)
     raw = fetch_weather(lat, lng)
     main = raw.get("main") or {}
@@ -234,6 +271,32 @@ def build_destination_entry(dest_name: str, coords_list: list, meta: dict) -> di
     sunrise_ts = sys_.get("sunrise")
     sunset_ts  = sys_.get("sunset")
     now_ts = int(time.time())
+
+    # ── Portão de coerência da visibilidade (Fase 0 #8a) ──
+    # Degrau 1: leitura do centróide suspeita? Degrau 2: 2ª chamada às coords do
+    # aeroporto principal (só quando o portão dispara — custo mínimo); se essa passa,
+    # usa-a. Degrau 3: as duas falham → visibility_m=None (o display omite a célula e o
+    # _visibility_factor(None) usa factor 1.0 — a vista não é penalizada por sensor mau).
+    vis_source = "primary"
+    if _visibility_suspect(visibility_m, condition_id):
+        ap = (airports or {}).get(dest_name)
+        vis2 = None
+        if ap:
+            try:
+                raw2 = fetch_weather(ap[0], ap[1])
+                v2 = raw2.get("visibility")
+                cid2 = (raw2.get("weather") or [{}])[0].get("id")
+                if v2 is not None and not _visibility_suspect(v2, cid2):
+                    vis2 = v2   # aeroporto passa o portão → resgata a visibilidade
+            except Exception as e:  # noqa: BLE001
+                print(f"     ⚠ {dest_name}: 2ª leitura (aeroporto) falhou: {e}", file=sys.stderr)
+        if vis2 is not None:
+            visibility_m, vis_source = vis2, "airport"
+            print(f"     ↳ {dest_name}: visibilidade do centróide suspeita → resgatada do aeroporto ({vis2} m)")
+        else:
+            visibility_m, vis_source = None, "dropped"
+            print(f"     ↳ {dest_name}: visibilidade suspeita e sem resgate → omitida (factor 1.0)")
+
     score = compute_view_index(clouds_pct, condition_id, visibility_m,
                                sunrise_ts, sunset_ts, now_ts)
     return {
@@ -248,6 +311,7 @@ def build_destination_entry(dest_name: str, coords_list: list, meta: dict) -> di
         "sunset":                sunset_ts,
         "view_index":            score,
         "view_rating":           rating_for(score),
+        "visibility_source":     vis_source,   # primary | airport | dropped (portão #8a)
         "timezone":              (meta.get("timezone") or "") if meta else "",
         "coords": {
             "lat": round(lat, 5),
@@ -299,6 +363,9 @@ def main():
         for g in missing_meta:
             print(f"     · {g!r}")
 
+    airports = load_airport_coords(AIRPORTS_JSON)   # coords do aeroporto principal (fallback #8a)
+    print(f"  {len(airports)} destinos com coords de aeroporto (fallback de visibilidade)")
+
     entries = {}
     errors = []
     processed = 0
@@ -310,7 +377,7 @@ def main():
             continue
         slug = m["slug"]
         try:
-            entry = build_destination_entry(dest_name, coords, m)
+            entry = build_destination_entry(dest_name, coords, m, airports)
             entries[slug] = entry
             processed += 1
             print(f"  [{i:>3}/{total}] {slug:<50} temp={entry['temp_c']}°C  "
