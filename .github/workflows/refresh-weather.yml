@@ -1,3 +1,6 @@
+# FICHEIRO COMPLETO para colar inteiro em
+# tmpv-data/.github/workflows/refresh-weather.yml (editor web do GitHub).
+# = o workflow actual + o job `alert` (2 falhas seguidas → issue).
 # Actualiza o weather_cache.json de 2 em 2 horas, correndo o refresh_weather.py.
 # O script está co-localizado aqui (tmpv-data), junto do cache e do hotels.json.
 name: Refresh weather cache
@@ -5,7 +8,8 @@ on:
   schedule:
     # De 2 em 2 horas, no minuto 0 (UTC). Ex: 00:00, 02:00, 04:00...
     - cron: '0 */2 * * *'
-  # Permite também disparar manualmente pelo botão "Run workflow" no GitHub.
+  # Permite também disparar manualmente pelo botão "Run workflow" no GitHub
+  # E é o endpoint que o Cloudflare Worker (relógio externo) chama de 2/2h.
   workflow_dispatch:
   # Dispara quando o «Actualizar dados» empurra um destino novo — o tempo
   # entra no CDN em ~1-2 min, sem esperar pelo ciclo de 2h.
@@ -49,3 +53,49 @@ jobs:
             git commit -m "weather: automated refresh ($(date -u '+%Y-%m-%d %H:%M UTC'))"
             git push
           fi
+
+  # Alerta: só abre/actualiza uma issue quando o refresh falha DUAS vezes
+  # seguidas (uma falha isolada é ruído transitório da API do tempo / do
+  # agendador). Dedup por título — sem dependência de labels.
+  alert:
+    needs: refresh
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      actions: read
+    steps:
+      - name: Open issue on 2 consecutive failures
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const runs = await github.rest.actions.listWorkflowRuns({
+              owner, repo, workflow_id: 'refresh-weather.yml',
+              status: 'completed', per_page: 5,
+            });
+            const prev = runs.data.workflow_runs.find(r => r.id !== context.runId);
+            if (!prev || prev.conclusion !== 'failure') {
+              core.info('Falha isolada — sem alerta (o run anterior não falhou).');
+              return;
+            }
+            const title = '⚠ Weather refresh falhou 2× seguidas';
+            const body = [
+              'O workflow **Refresh weather cache** falhou em dois runs consecutivos.',
+              '',
+              `- run actual: ${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`,
+              `- run anterior: ${prev.html_url}`,
+              '',
+              'O `weather_cache.json` pode ficar stale → a secção Right Now cai para',
+              'camada 2/3 (corte de frescura de 8 h). Verificar o relógio externo',
+              '(Cloudflare Worker) e o cron do GitHub. Ver Bible → Anexo A, pipeline do tempo.',
+            ].join('\n');
+            const open = await github.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 50 });
+            const hit = open.data.find(i => i.title === title);
+            if (hit) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: hit.number, body });
+              core.info(`Comentário adicionado à issue #${hit.number}.`);
+            } else {
+              const created = await github.rest.issues.create({ owner, repo, title, body });
+              core.info(`Issue #${created.data.number} criada.`);
+            }
