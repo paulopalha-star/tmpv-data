@@ -1,18 +1,18 @@
 {
-  "generated_at": 1795507403,
+  "generated_at": 1795514611,
   "source": "openweathermap 2.5",
   "destinations": {
     "abu-dhabi-hotels-best-views": {
-      "temp_c": 28.99,
-      "feels_like_c": 28.78,
-      "condition_id": 800,
-      "condition_main": "Clear",
-      "condition_description": "clear sky",
-      "clouds_pct": 0,
+      "temp_c": 30.99,
+      "feels_like_c": 30.49,
+      "condition_id": 801,
+      "condition_main": "Clouds",
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
       "visibility_m": 10000,
       "sunrise": 1795488273,
       "sunset": 1795527243,
-      "view_index": 92,
+      "view_index": 88,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Asia/Dubai",
@@ -21,20 +21,20 @@
         "lng": 54.3696,
         "n_hotels": 12
       },
-      "fetched_at": 1795507253
+      "fetched_at": 1795514456
     },
     "algarve-hotels-best-views": {
-      "temp_c": 14.54,
-      "feels_like_c": 14.24,
-      "condition_id": 803,
-      "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 74,
-      "visibility_m": 10000,
+      "temp_c": 15.29,
+      "feels_like_c": 15.02,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
+      "clouds_pct": 100,
+      "visibility_m": 4142,
       "sunrise": 1795504874,
       "sunset": 1795540728,
-      "view_index": 77,
-      "view_rating": "Good",
+      "view_index": 24,
+      "view_rating": "Obscured",
       "visibility_source": "primary",
       "timezone": "Europe/Lisbon",
       "coords": {
@@ -42,40 +42,40 @@
         "lng": -8.29707,
         "n_hotels": 17
       },
-      "fetched_at": 1795507254
+      "fetched_at": 1795514458
     },
     "amalfi-coast-hotels-best-view": {
-      "temp_c": 5.41,
-      "feels_like_c": 4.33,
-      "condition_id": 801,
+      "temp_c": 8.36,
+      "feels_like_c": 8.36,
+      "condition_id": 803,
       "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 17,
+      "condition_description": "broken clouds",
+      "clouds_pct": 55,
       "visibility_m": 10000,
       "sunrise": 1795499922,
       "sunset": 1795534721,
-      "view_index": 89,
-      "view_rating": "Perfect",
-      "visibility_source": "airport",
+      "view_index": 81,
+      "view_rating": "Beautiful",
+      "visibility_source": "primary",
       "timezone": "Europe/Rome",
       "coords": {
         "lat": 40.62852,
         "lng": 14.53052,
         "n_hotels": 18
       },
-      "fetched_at": 1795507255
+      "fetched_at": 1795514460
     },
     "amsterdam-hotels-best-views": {
-      "temp_c": -3.13,
-      "feels_like_c": -7.39,
-      "condition_id": 800,
-      "condition_main": "Clear",
-      "condition_description": "clear sky",
-      "clouds_pct": 0,
+      "temp_c": -0.6,
+      "feels_like_c": -3.81,
+      "condition_id": 801,
+      "condition_main": "Clouds",
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
       "visibility_m": 10000,
-      "sunrise": 1795504612,
-      "sunset": 1795534656,
-      "view_index": 92,
+      "sunrise": 1795504609,
+      "sunset": 1795534655,
+      "view_index": 88,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Europe/Amsterdam",
@@ -84,20 +84,20 @@
         "lng": 4.89562,
         "n_hotels": 18
       },
-      "fetched_at": 1795507257
+      "fetched_at": 1795514461
     },
     "antalya-hotels-view": {
-      "temp_c": 17.71,
-      "feels_like_c": 17.83,
-      "condition_id": 802,
-      "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
+      "temp_c": 20.32,
+      "feels_like_c": 20.31,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
       "clouds_pct": 40,
       "visibility_m": 10000,
       "sunrise": 1795495431,
       "sunset": 1795531364,
-      "view_index": 84,
-      "view_rating": "Beautiful",
+      "view_index": 72,
+      "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Istanbul",
       "coords": {
@@ -105,20 +105,20 @@
         "lng": 30.87566,
         "n_hotels": 7
       },
-      "fetched_at": 1795507258
+      "fetched_at": 1795514464
     },
     "aparados-da-serra-hotels-best-views": {
-      "temp_c": 20.15,
-      "feels_like_c": 20.65,
-      "condition_id": 800,
-      "condition_main": "Clear",
-      "condition_description": "clear sky",
-      "clouds_pct": 1,
+      "temp_c": 22.37,
+      "feels_like_c": 23.12,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
+      "clouds_pct": 14,
       "visibility_m": 10000,
       "sunrise": 1795508057,
       "sunset": 1795557558,
-      "view_index": 92,
-      "view_rating": "Perfect",
+      "view_index": 77,
+      "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "America/Sao_Paulo",
       "coords": {
@@ -126,11 +126,11 @@
         "lng": -49.98202,
         "n_hotels": 4
       },
-      "fetched_at": 1795507259
+      "fetched_at": 1795514465
     },
     "athens-best-hotels-view": {
-      "temp_c": 16.65,
-      "feels_like_c": 16.02,
+      "temp_c": 17.4,
+      "feels_like_c": 16.68,
       "condition_id": 801,
       "condition_main": "Clouds",
       "condition_description": "few clouds",
@@ -147,20 +147,20 @@
         "lng": 23.73253,
         "n_hotels": 16
       },
-      "fetched_at": 1795507260
+      "fetched_at": 1795514466
     },
     "auckland-hotels-best-view": {
-      "temp_c": 18.78,
-      "feels_like_c": 18.85,
-      "condition_id": 801,
+      "temp_c": 17.91,
+      "feels_like_c": 17.98,
+      "condition_id": 804,
       "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 20,
+      "condition_description": "overcast clouds",
+      "clouds_pct": 100,
       "visibility_m": 10000,
-      "sunrise": 1795453089,
-      "sunset": 1795504626,
-      "view_index": 90,
-      "view_rating": "Perfect",
+      "sunrise": 1795453090,
+      "sunset": 1795504625,
+      "view_index": 80,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Pacific/Auckland",
       "coords": {
@@ -168,19 +168,19 @@
         "lng": 174.76347,
         "n_hotels": 17
       },
-      "fetched_at": 1795507261
+      "fetched_at": 1795514467
     },
     "bali-hotels-resorts-best-view": {
-      "temp_c": 29.29,
-      "feels_like_c": 33.37,
-      "condition_id": 803,
-      "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 69,
+      "temp_c": 28.29,
+      "feels_like_c": 33.36,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
+      "clouds_pct": 65,
       "visibility_m": 10000,
       "sunrise": 1795470559,
       "sunset": 1795515738,
-      "view_index": 78,
+      "view_index": 67,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Asia/Makassar",
@@ -189,19 +189,19 @@
         "lng": 115.22907,
         "n_hotels": 22
       },
-      "fetched_at": 1795507263
+      "fetched_at": 1795514469
     },
     "best-bangkok-hotels-view": {
-      "temp_c": 35.46,
-      "feels_like_c": 38.41,
-      "condition_id": 803,
+      "temp_c": 33.32,
+      "feels_like_c": 36.07,
+      "condition_id": 802,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 53,
+      "condition_description": "scattered clouds",
+      "clouds_pct": 38,
       "visibility_m": 10000,
       "sunrise": 1795476114,
       "sunset": 1795517241,
-      "view_index": 81,
+      "view_index": 84,
       "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Asia/Bangkok",
@@ -210,18 +210,18 @@
         "lng": 100.52831,
         "n_hotels": 16
       },
-      "fetched_at": 1795507264
+      "fetched_at": 1795514470
     },
     "barcelona-hotels-best-views": {
-      "temp_c": 12.99,
-      "feels_like_c": 12.15,
+      "temp_c": 14.98,
+      "feels_like_c": 14.28,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 97,
-      "visibility_m": null,
-      "sunrise": 1795503015,
-      "sunset": 1795537564,
+      "clouds_pct": 93,
+      "visibility_m": 10000,
+      "sunrise": 1795503012,
+      "sunset": 1795537563,
       "view_index": 73,
       "view_rating": "Good",
       "visibility_source": "primary",
@@ -231,19 +231,19 @@
         "lng": 2.16946,
         "n_hotels": 28
       },
-      "fetched_at": 1795507265
+      "fetched_at": 1795514471
     },
     "beijing-hotels-best-views": {
-      "temp_c": 6.95,
-      "feels_like_c": 5.94,
+      "temp_c": 2.95,
+      "feels_like_c": 0.87,
       "condition_id": 801,
       "condition_main": "Clouds",
       "condition_description": "few clouds",
-      "clouds_pct": 13,
+      "clouds_pct": 20,
       "visibility_m": 10000,
       "sunrise": 1795475332,
       "sunset": 1795510381,
-      "view_index": 89,
+      "view_index": 90,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Asia/Shanghai",
@@ -252,19 +252,19 @@
         "lng": 116.44717,
         "n_hotels": 8
       },
-      "fetched_at": 1795507267
+      "fetched_at": 1795514472
     },
     "berlin-hotels-best-views": {
-      "temp_c": 0.79,
-      "feels_like_c": -3.03,
-      "condition_id": 803,
+      "temp_c": 1.92,
+      "feels_like_c": -2.31,
+      "condition_id": 804,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
+      "condition_description": "overcast clouds",
+      "clouds_pct": 100,
       "visibility_m": 10000,
       "sunrise": 1795502610,
       "sunset": 1795532583,
-      "view_index": 77,
+      "view_index": 72,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Berlin",
@@ -273,11 +273,11 @@
         "lng": 13.3856,
         "n_hotels": 13
       },
-      "fetched_at": 1795507268
+      "fetched_at": 1795514473
     },
     "bhutan-hotels-best-views": {
-      "temp_c": 15.46,
-      "feels_like_c": 13.24,
+      "temp_c": 12.27,
+      "feels_like_c": 10.39,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -294,20 +294,20 @@
         "lng": 89.71734,
         "n_hotels": 5
       },
-      "fetched_at": 1795507269
+      "fetched_at": 1795514475
     },
     "bodrum-hotels-best-views": {
-      "temp_c": 17.43,
-      "feels_like_c": 17.32,
-      "condition_id": 802,
-      "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 35,
-      "visibility_m": 5797,
+      "temp_c": 18.43,
+      "feels_like_c": 18.1,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 7,
+      "visibility_m": 10000,
       "sunrise": 1795496299,
       "sunset": 1795532166,
-      "view_index": 52,
-      "view_rating": "Fair",
+      "view_index": 91,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Europe/Istanbul",
       "coords": {
@@ -315,15 +315,15 @@
         "lng": 27.39871,
         "n_hotels": 6
       },
-      "fetched_at": 1795507270
+      "fetched_at": 1795514476
     },
     "boston-hotels-harbor-skyline-views": {
-      "temp_c": 5.65,
-      "feels_like_c": 5.65,
+      "temp_c": 4.66,
+      "feels_like_c": 4.66,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
-      "clouds_pct": 2,
+      "clouds_pct": 0,
       "visibility_m": 10000,
       "sunrise": 1795520762,
       "sunset": 1795554970,
@@ -336,19 +336,19 @@
         "lng": -71.05388,
         "n_hotels": 15
       },
-      "fetched_at": 1795507271
+      "fetched_at": 1795514477
     },
     "brighton-seafront-hotels-view": {
-      "temp_c": 7.31,
-      "feels_like_c": 6.78,
-      "condition_id": 804,
+      "temp_c": 8.37,
+      "feels_like_c": 5.11,
+      "condition_id": 803,
       "condition_main": "Clouds",
-      "condition_description": "overcast clouds",
-      "clouds_pct": 100,
+      "condition_description": "broken clouds",
+      "clouds_pct": 75,
       "visibility_m": 10000,
-      "sunrise": 1795505431,
-      "sunset": 1795536255,
-      "view_index": 72,
+      "sunrise": 1795505430,
+      "sunset": 1795536254,
+      "view_index": 77,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/London",
@@ -357,19 +357,19 @@
         "lng": -0.13628,
         "n_hotels": 8
       },
-      "fetched_at": 1795507272
+      "fetched_at": 1795514478
     },
     "brisbane-hotels-apartments-best-views": {
-      "temp_c": 24.68,
-      "feels_like_c": 25.19,
-      "condition_id": 803,
-      "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 76,
+      "temp_c": 24.06,
+      "feels_like_c": 24.58,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
+      "clouds_pct": 20,
       "visibility_m": 10000,
       "sunrise": 1795459548,
       "sunset": 1795508600,
-      "view_index": 77,
+      "view_index": 78,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Australia/Brisbane",
@@ -378,19 +378,19 @@
         "lng": 153.02922,
         "n_hotels": 16
       },
-      "fetched_at": 1795507273
+      "fetched_at": 1795514479
     },
     "budapest-hotels-best-view": {
-      "temp_c": 1.13,
-      "feels_like_c": -3.58,
-      "condition_id": 800,
-      "condition_main": "Clear",
-      "condition_description": "clear sky",
-      "clouds_pct": 0,
+      "temp_c": 2.75,
+      "feels_like_c": -3.17,
+      "condition_id": 801,
+      "condition_main": "Clouds",
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
       "visibility_m": 10000,
       "sunrise": 1795500079,
-      "sunset": 1795532394,
-      "view_index": 92,
+      "sunset": 1795532395,
+      "view_index": 88,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Europe/Budapest",
@@ -399,11 +399,11 @@
         "lng": 19.04877,
         "n_hotels": 15
       },
-      "fetched_at": 1795507275
+      "fetched_at": 1795514480
     },
     "buenos-aires-hotels-best-views": {
-      "temp_c": 19.45,
-      "feels_like_c": 19.46,
+      "temp_c": 19.68,
+      "feels_like_c": 19.58,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -420,15 +420,15 @@
         "lng": -58.37387,
         "n_hotels": 12
       },
-      "fetched_at": 1795507276
+      "fetched_at": 1795514484
     },
     "cairo-hotels-pyramid-nile-view": {
-      "temp_c": 20.43,
-      "feels_like_c": 20.23,
+      "temp_c": 22.43,
+      "feels_like_c": 22.19,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
-      "clouds_pct": 2,
+      "clouds_pct": 0,
       "visibility_m": 10000,
       "sunrise": 1795494465,
       "sunset": 1795532172,
@@ -441,19 +441,19 @@
         "lng": 31.20668,
         "n_hotels": 10
       },
-      "fetched_at": 1795507277
+      "fetched_at": 1795514485
     },
     "cambodia-hotels-best-views": {
-      "temp_c": 32.49,
-      "feels_like_c": 37.6,
+      "temp_c": 30.97,
+      "feels_like_c": 36.36,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 90,
+      "clouds_pct": 93,
       "visibility_m": 10000,
       "sunrise": 1795475088,
       "sunset": 1795516738,
-      "view_index": 74,
+      "view_index": 73,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Asia/Phnom_Penh",
@@ -462,19 +462,19 @@
         "lng": 103.71286,
         "n_hotels": 7
       },
-      "fetched_at": 1795507278
+      "fetched_at": 1795514487
     },
     "cancun-hotels-resorts-best-view": {
-      "temp_c": 25.1,
-      "feels_like_c": 25.96,
+      "temp_c": 25.66,
+      "feels_like_c": 26.58,
       "condition_id": 500,
       "condition_main": "Rain",
       "condition_description": "light rain",
-      "clouds_pct": 49,
+      "clouds_pct": 55,
       "visibility_m": 10000,
       "sunrise": 1795521814,
       "sunset": 1795561473,
-      "view_index": 74,
+      "view_index": 73,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "America/Cancun",
@@ -483,20 +483,20 @@
         "lng": -86.79281,
         "n_hotels": 10
       },
-      "fetched_at": 1795507279
+      "fetched_at": 1795514489
     },
     "best-cannon-beach-hotels-oceanfront-view": {
       "temp_c": 6.98,
-      "feels_like_c": 2.58,
-      "condition_id": 500,
-      "condition_main": "Rain",
-      "condition_description": "light rain",
+      "feels_like_c": 2.45,
+      "condition_id": 804,
+      "condition_main": "Clouds",
+      "condition_description": "overcast clouds",
       "clouds_pct": 100,
       "visibility_m": 10000,
       "sunrise": 1795534110,
       "sunset": 1795567023,
-      "view_index": 68,
-      "view_rating": "Good",
+      "view_index": 80,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "America/Los_Angeles",
       "coords": {
@@ -504,19 +504,19 @@
         "lng": -123.96217,
         "n_hotels": 7
       },
-      "fetched_at": 1795507280
+      "fetched_at": 1795514491
     },
     "cape-town-best-hotels-view": {
-      "temp_c": 19.94,
-      "feels_like_c": 19.53,
-      "condition_id": 801,
-      "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 20,
+      "temp_c": 21.8,
+      "feels_like_c": 21.37,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 0,
       "visibility_m": 10000,
       "sunrise": 1795491027,
       "sunset": 1795541758,
-      "view_index": 88,
+      "view_index": 92,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Africa/Johannesburg",
@@ -525,20 +525,20 @@
         "lng": 18.39965,
         "n_hotels": 19
       },
-      "fetched_at": 1795507281
+      "fetched_at": 1795514492
     },
     "cappadocia-hotels-best-views": {
-      "temp_c": 9.33,
-      "feels_like_c": 8.19,
-      "condition_id": 802,
+      "temp_c": 7.33,
+      "feels_like_c": 5.87,
+      "condition_id": 803,
       "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 49,
-      "visibility_m": 10000,
+      "condition_description": "broken clouds",
+      "clouds_pct": 73,
+      "visibility_m": 7378,
       "sunrise": 1795494740,
       "sunset": 1795530158,
-      "view_index": 82,
-      "view_rating": "Beautiful",
+      "view_index": 63,
+      "view_rating": "Fair",
       "visibility_source": "primary",
       "timezone": "Europe/Istanbul",
       "coords": {
@@ -546,19 +546,19 @@
         "lng": 34.82767,
         "n_hotels": 7
       },
-      "fetched_at": 1795507283
+      "fetched_at": 1795514493
     },
     "cascais-estoril-hotels-best-views": {
-      "temp_c": 15.84,
-      "feels_like_c": 15.73,
-      "condition_id": 803,
-      "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
-      "visibility_m": 10000,
+      "temp_c": 14.01,
+      "feels_like_c": 13.92,
+      "condition_id": 501,
+      "condition_main": "Rain",
+      "condition_description": "moderate rain",
+      "clouds_pct": 40,
+      "visibility_m": 9000,
       "sunrise": 1795505378,
       "sunset": 1795540765,
-      "view_index": 77,
+      "view_index": 68,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Lisbon",
@@ -567,20 +567,20 @@
         "lng": -9.42316,
         "n_hotels": 12
       },
-      "fetched_at": 1795507284
+      "fetched_at": 1795514494
     },
     "chicago-hotels-romantic-lake-views": {
-      "temp_c": -1.58,
-      "feels_like_c": -6.66,
-      "condition_id": 800,
-      "condition_main": "Clear",
-      "condition_description": "clear sky",
-      "clouds_pct": 0,
+      "temp_c": -0.45,
+      "feels_like_c": -4.92,
+      "condition_id": 803,
+      "condition_main": "Clouds",
+      "condition_description": "broken clouds",
+      "clouds_pct": 75,
       "visibility_m": 10000,
       "sunrise": 1795524665,
       "sunset": 1795559025,
-      "view_index": 92,
-      "view_rating": "Perfect",
+      "view_index": 83,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "America/Chicago",
       "coords": {
@@ -588,18 +588,18 @@
         "lng": -87.62654,
         "n_hotels": 22
       },
-      "fetched_at": 1795507285
+      "fetched_at": 1795514495
     },
     "copenhagen-hotels-best-views": {
-      "temp_c": -0.46,
-      "feels_like_c": -5.57,
+      "temp_c": -0.23,
+      "feels_like_c": -4.98,
       "condition_id": 803,
       "condition_main": "Clouds",
       "condition_description": "broken clouds",
       "clouds_pct": 75,
       "visibility_m": 10000,
-      "sunrise": 1795503719,
-      "sunset": 1795531859,
+      "sunrise": 1795503720,
+      "sunset": 1795531860,
       "view_index": 77,
       "view_rating": "Good",
       "visibility_source": "primary",
@@ -609,20 +609,20 @@
         "lng": 12.57765,
         "n_hotels": 16
       },
-      "fetched_at": 1795507286
+      "fetched_at": 1795514496
     },
     "hotels-cornwall-sea-views": {
-      "temp_c": 12.53,
-      "feels_like_c": 12.29,
+      "temp_c": 11.53,
+      "feels_like_c": 11.35,
       "condition_id": 501,
       "condition_main": "Rain",
       "condition_description": "moderate rain",
-      "clouds_pct": 75,
-      "visibility_m": 8000,
+      "clouds_pct": 100,
+      "visibility_m": 5000,
       "sunrise": 1795506521,
       "sunset": 1795537558,
-      "view_index": 58,
-      "view_rating": "Fair",
+      "view_index": 30,
+      "view_rating": "Limited",
       "visibility_source": "primary",
       "timezone": "Europe/London",
       "coords": {
@@ -630,11 +630,11 @@
         "lng": -5.12367,
         "n_hotels": 9
       },
-      "fetched_at": 1795507288
+      "fetched_at": 1795514498
     },
     "dallas-hotels-best-views": {
-      "temp_c": 7.27,
-      "feels_like_c": 4.59,
+      "temp_c": 6.49,
+      "feels_like_c": 3.91,
       "condition_id": 802,
       "condition_main": "Clouds",
       "condition_description": "scattered clouds",
@@ -651,20 +651,20 @@
         "lng": -96.81697,
         "n_hotels": 13
       },
-      "fetched_at": 1795507291
+      "fetched_at": 1795514499
     },
     "daytona-beach-oceanfront-hotels-view": {
-      "temp_c": 17.25,
-      "feels_like_c": 17.41,
-      "condition_id": 501,
-      "condition_main": "Rain",
-      "condition_description": "moderate rain",
+      "temp_c": 16.9,
+      "feels_like_c": 17.1,
+      "condition_id": 804,
+      "condition_main": "Clouds",
+      "condition_description": "overcast clouds",
       "clouds_pct": 100,
-      "visibility_m": 10000,
+      "visibility_m": 3949,
       "sunrise": 1795521314,
       "sunset": 1795559195,
-      "view_index": 68,
-      "view_rating": "Good",
+      "view_index": 29,
+      "view_rating": "Limited",
       "visibility_source": "primary",
       "timezone": "America/New_York",
       "coords": {
@@ -672,11 +672,11 @@
         "lng": -81.00404,
         "n_hotels": 5
       },
-      "fetched_at": 1795507292
+      "fetched_at": 1795514500
     },
     "doha-hotels-resorts-best-views": {
-      "temp_c": 28.05,
-      "feels_like_c": 29.64,
+      "temp_c": 29.05,
+      "feels_like_c": 30.81,
       "condition_id": 801,
       "condition_main": "Clouds",
       "condition_description": "few clouds",
@@ -693,11 +693,11 @@
         "lng": 51.54147,
         "n_hotels": 15
       },
-      "fetched_at": 1795507294
+      "fetched_at": 1795514501
     },
     "dubai-hotels-best-views": {
-      "temp_c": 30.01,
-      "feels_like_c": 29.94,
+      "temp_c": 31.01,
+      "feels_like_c": 29.49,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -714,19 +714,19 @@
         "lng": 55.20454,
         "n_hotels": 21
       },
-      "fetched_at": 1795507296
+      "fetched_at": 1795514502
     },
     "durban-hotels-best-ocean-views": {
-      "temp_c": 25.52,
-      "feels_like_c": 26.11,
-      "condition_id": 804,
-      "condition_main": "Clouds",
-      "condition_description": "overcast clouds",
-      "clouds_pct": 100,
+      "temp_c": 27.16,
+      "feels_like_c": 28.21,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
+      "clouds_pct": 52,
       "visibility_m": 10000,
       "sunrise": 1795488533,
       "sunset": 1795538186,
-      "view_index": 72,
+      "view_index": 70,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Africa/Johannesburg",
@@ -735,20 +735,20 @@
         "lng": 31.03567,
         "n_hotels": 5
       },
-      "fetched_at": 1795507297
+      "fetched_at": 1795514504
     },
     "edinburgh-hotels-best-views": {
-      "temp_c": 2.2,
-      "feels_like_c": -1.96,
-      "condition_id": 520,
-      "condition_main": "Rain",
-      "condition_description": "light intensity shower rain",
-      "clouds_pct": 100,
-      "visibility_m": 8000,
-      "sunrise": 1795507602,
-      "sunset": 1795535551,
-      "view_index": 50,
-      "view_rating": "Fair",
+      "temp_c": 2.85,
+      "feels_like_c": -1.15,
+      "condition_id": 801,
+      "condition_main": "Clouds",
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
+      "visibility_m": 10000,
+      "sunrise": 1795507603,
+      "sunset": 1795535552,
+      "view_index": 88,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Europe/London",
       "coords": {
@@ -756,20 +756,20 @@
         "lng": -3.1967,
         "n_hotels": 9
       },
-      "fetched_at": 1795507298
+      "fetched_at": 1795514505
     },
     "finger-lakes-hotels-best-views": {
-      "temp_c": 2.27,
-      "feels_like_c": -1.23,
-      "condition_id": 802,
+      "temp_c": 2.04,
+      "feels_like_c": -2.44,
+      "condition_id": 801,
       "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 40,
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
       "visibility_m": 10000,
       "sunrise": 1795522232,
       "sunset": 1795556331,
-      "view_index": 87,
-      "view_rating": "Beautiful",
+      "view_index": 90,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "America/New_York",
       "coords": {
@@ -777,41 +777,41 @@
         "lng": -76.95264,
         "n_hotels": 3
       },
-      "fetched_at": 1795507299
+      "fetched_at": 1795514506
     },
     "florence-hotel-views": {
-      "temp_c": 8.95,
-      "feels_like_c": 8.95,
-      "condition_id": 804,
+      "temp_c": 11.71,
+      "feels_like_c": 11.23,
+      "condition_id": 802,
       "condition_main": "Clouds",
-      "condition_description": "overcast clouds",
-      "clouds_pct": 100,
-      "visibility_m": null,
+      "condition_description": "scattered clouds",
+      "clouds_pct": 40,
+      "visibility_m": 10000,
       "sunrise": 1795501237,
       "sunset": 1795534978,
-      "view_index": 72,
-      "view_rating": "Good",
-      "visibility_source": "dropped",
+      "view_index": 84,
+      "view_rating": "Beautiful",
+      "visibility_source": "primary",
       "timezone": "Europe/Rome",
       "coords": {
         "lat": 43.77434,
         "lng": 11.25935,
         "n_hotels": 15
       },
-      "fetched_at": 1795507300
+      "fetched_at": 1795514507
     },
     "fort-lauderdale-hotels-ocean-view": {
-      "temp_c": 19.13,
-      "feels_like_c": 19.5,
-      "condition_id": 804,
-      "condition_main": "Clouds",
-      "condition_description": "overcast clouds",
-      "clouds_pct": 100,
+      "temp_c": 19.27,
+      "feels_like_c": 19.63,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 0,
       "visibility_m": 10000,
-      "sunrise": 1795520744,
+      "sunrise": 1795520745,
       "sunset": 1795559333,
-      "view_index": 80,
-      "view_rating": "Beautiful",
+      "view_index": 92,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "America/New_York",
       "coords": {
@@ -819,19 +819,19 @@
         "lng": -80.10527,
         "n_hotels": 8
       },
-      "fetched_at": 1795507302
+      "fetched_at": 1795514508
     },
     "funchal-hotels-ocean-view": {
-      "temp_c": 21.02,
-      "feels_like_c": 21.53,
-      "condition_id": 500,
+      "temp_c": 20.76,
+      "feels_like_c": 21.16,
+      "condition_id": 501,
       "condition_main": "Rain",
-      "condition_description": "light rain",
+      "condition_description": "moderate rain",
       "clouds_pct": 40,
-      "visibility_m": 8000,
+      "visibility_m": 9000,
       "sunrise": 1795506344,
       "sunset": 1795543398,
-      "view_index": 65,
+      "view_index": 68,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Atlantic/Madeira",
@@ -840,20 +840,20 @@
         "lng": -16.92034,
         "n_hotels": 8
       },
-      "fetched_at": 1795507304
+      "fetched_at": 1795514509
     },
     "galapagos-hotels-best-views": {
       "temp_c": 23.86,
       "feels_like_c": 24.91,
-      "condition_id": 500,
-      "condition_main": "Rain",
-      "condition_description": "light rain",
-      "clouds_pct": 11,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 7,
       "visibility_m": 10000,
       "sunrise": 1795520622,
       "sunset": 1795564369,
-      "view_index": 79,
-      "view_rating": "Good",
+      "view_index": 91,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Pacific/Galapagos",
       "coords": {
@@ -861,20 +861,20 @@
         "lng": -90.339,
         "n_hotels": 3
       },
-      "fetched_at": 1795507305
+      "fetched_at": 1795514511
     },
     "geneva-hotels-best-lake-geneva-views": {
-      "temp_c": 5.2,
-      "feels_like_c": 5.2,
-      "condition_id": 803,
+      "temp_c": 7.2,
+      "feels_like_c": 7.2,
+      "condition_id": 802,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
+      "condition_description": "scattered clouds",
+      "clouds_pct": 40,
       "visibility_m": 10000,
       "sunrise": 1795502919,
       "sunset": 1795535749,
-      "view_index": 77,
-      "view_rating": "Good",
+      "view_index": 84,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Europe/Zurich",
       "coords": {
@@ -882,20 +882,20 @@
         "lng": 6.14662,
         "n_hotels": 8
       },
-      "fetched_at": 1795507307
+      "fetched_at": 1795514512
     },
     "gold-coast-hotels-best-view": {
-      "temp_c": 24.04,
-      "feels_like_c": 24.67,
-      "condition_id": 501,
+      "temp_c": 23.44,
+      "feels_like_c": 23.98,
+      "condition_id": 500,
       "condition_main": "Rain",
-      "condition_description": "moderate rain",
+      "condition_description": "light rain",
       "clouds_pct": 100,
       "visibility_m": 10000,
       "sunrise": 1795459385,
       "sunset": 1795508568,
-      "view_index": 60,
-      "view_rating": "Fair",
+      "view_index": 68,
+      "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Australia/Brisbane",
       "coords": {
@@ -903,20 +903,20 @@
         "lng": 153.43824,
         "n_hotels": 11
       },
-      "fetched_at": 1795507308
+      "fetched_at": 1795514513
     },
     "guangzhou-hotels-best-views": {
-      "temp_c": 21.55,
-      "feels_like_c": 21.17,
-      "condition_id": 802,
+      "temp_c": 19.46,
+      "feels_like_c": 18.98,
+      "condition_id": 801,
       "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 32,
+      "condition_description": "few clouds",
+      "clouds_pct": 23,
       "visibility_m": 10000,
       "sunrise": 1795473973,
-      "sunset": 1795513240,
-      "view_index": 86,
-      "view_rating": "Beautiful",
+      "sunset": 1795513241,
+      "view_index": 89,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Asia/Shanghai",
       "coords": {
@@ -924,11 +924,11 @@
         "lng": 113.32054,
         "n_hotels": 9
       },
-      "fetched_at": 1795507309
+      "fetched_at": 1795514514
     },
     "half-moon-bay-hotels-best-ocean-view": {
-      "temp_c": 10.16,
-      "feels_like_c": 9.42,
+      "temp_c": 9.96,
+      "feels_like_c": 9.96,
       "condition_id": 803,
       "condition_main": "Clouds",
       "condition_description": "broken clouds",
@@ -945,18 +945,18 @@
         "lng": -122.46504,
         "n_hotels": 4
       },
-      "fetched_at": 1795507310
+      "fetched_at": 1795514515
     },
     "hamburg-hotels-best-views": {
-      "temp_c": -4.46,
-      "feels_like_c": -4.46,
+      "temp_c": -0.5,
+      "feels_like_c": -2.39,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
       "clouds_pct": 0,
       "visibility_m": 10000,
       "sunrise": 1795503709,
-      "sunset": 1795533115,
+      "sunset": 1795533112,
       "view_index": 92,
       "view_rating": "Perfect",
       "visibility_source": "primary",
@@ -966,20 +966,20 @@
         "lng": 9.99307,
         "n_hotels": 12
       },
-      "fetched_at": 1795507311
+      "fetched_at": 1795514516
     },
     "hong-kong-hotel-views": {
-      "temp_c": 22.46,
-      "feels_like_c": 22.41,
+      "temp_c": 20.66,
+      "feels_like_c": 20.35,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 92,
+      "clouds_pct": 94,
       "visibility_m": 10000,
       "sunrise": 1795473682,
       "sunset": 1795513123,
-      "view_index": 74,
-      "view_rating": "Good",
+      "view_index": 81,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Asia/Hong_Kong",
       "coords": {
@@ -987,20 +987,20 @@
         "lng": 114.17188,
         "n_hotels": 15
       },
-      "fetched_at": 1795507313
+      "fetched_at": 1795514518
     },
     "honolulu-hotels-best-waikiki-view": {
-      "temp_c": 23.09,
-      "feels_like_c": 23.28,
-      "condition_id": 801,
+      "temp_c": 22.95,
+      "feels_like_c": 23.18,
+      "condition_id": 803,
       "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 20,
+      "condition_description": "broken clouds",
+      "clouds_pct": 75,
       "visibility_m": 10000,
-      "sunrise": 1795452448,
-      "sunset": 1795492108,
-      "view_index": 90,
-      "view_rating": "Perfect",
+      "sunrise": 1795538887,
+      "sunset": 1795578504,
+      "view_index": 83,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Pacific/Honolulu",
       "coords": {
@@ -1008,11 +1008,11 @@
         "lng": -157.82662,
         "n_hotels": 13
       },
-      "fetched_at": 1795507314
+      "fetched_at": 1795514519
     },
     "istanbul-hotels-best-views": {
-      "temp_c": 6.78,
-      "feels_like_c": 3.5,
+      "temp_c": 9.05,
+      "feels_like_c": 5.81,
       "condition_id": 803,
       "condition_main": "Clouds",
       "condition_description": "broken clouds",
@@ -1029,19 +1029,19 @@
         "lng": 28.99479,
         "n_hotels": 17
       },
-      "fetched_at": 1795507315
+      "fetched_at": 1795514520
     },
     "kruger-hotels-best-views": {
-      "temp_c": 34.55,
-      "feels_like_c": 35.35,
-      "condition_id": 802,
+      "temp_c": 37.66,
+      "feels_like_c": 37.66,
+      "condition_id": 803,
       "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 34,
+      "condition_description": "broken clouds",
+      "clouds_pct": 54,
       "visibility_m": 10000,
       "sunrise": 1795489083,
       "sunset": 1795537461,
-      "view_index": 85,
+      "view_index": 81,
       "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Africa/Johannesburg",
@@ -1050,19 +1050,19 @@
         "lng": 31.39879,
         "n_hotels": 10
       },
-      "fetched_at": 1795507316
+      "fetched_at": 1795514521
     },
     "kuala-lumpur-hotels-best-views": {
-      "temp_c": 25.77,
-      "feels_like_c": 26.86,
-      "condition_id": 802,
-      "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 40,
+      "temp_c": 25.52,
+      "feels_like_c": 26.43,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
+      "clouds_pct": 20,
       "visibility_m": 8000,
       "sunrise": 1795474864,
       "sunset": 1795517924,
-      "view_index": 76,
+      "view_index": 68,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Asia/Kuala_Lumpur",
@@ -1071,18 +1071,18 @@
         "lng": 101.70899,
         "n_hotels": 9
       },
-      "fetched_at": 1795507317
+      "fetched_at": 1795514522
     },
     "kyoto-hotels-best-views": {
-      "temp_c": 11.19,
-      "feels_like_c": 10.82,
+      "temp_c": 10.62,
+      "feels_like_c": 9.83,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 100,
+      "clouds_pct": 99,
       "visibility_m": 10000,
       "sunrise": 1795469984,
-      "sunset": 1795506455,
+      "sunset": 1795506454,
       "view_index": 80,
       "view_rating": "Beautiful",
       "visibility_source": "primary",
@@ -1092,11 +1092,11 @@
         "lng": 135.76459,
         "n_hotels": 16
       },
-      "fetched_at": 1795507318
+      "fetched_at": 1795514524
     },
     "laguna-beach-hotels-ocean-view": {
-      "temp_c": 15.37,
-      "feels_like_c": 14.95,
+      "temp_c": 14.74,
+      "feels_like_c": 14.07,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -1113,20 +1113,20 @@
         "lng": -117.76776,
         "n_hotels": 6
       },
-      "fetched_at": 1795507319
+      "fetched_at": 1795514525
     },
     "lake-como-hotels-best-views": {
-      "temp_c": 6.34,
-      "feels_like_c": 6.34,
+      "temp_c": 6.73,
+      "feels_like_c": 6.73,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 99,
-      "visibility_m": 2000,
+      "clouds_pct": 97,
+      "visibility_m": 4000,
       "sunrise": 1795502138,
       "sunset": 1795535093,
-      "view_index": 11,
-      "view_rating": "Obscured",
+      "view_index": 27,
+      "view_rating": "Limited",
       "visibility_source": "airport",
       "timezone": "Europe/Rome",
       "coords": {
@@ -1134,20 +1134,20 @@
         "lng": 9.13847,
         "n_hotels": 10
       },
-      "fetched_at": 1795507321
+      "fetched_at": 1795514526
     },
     "lake-district-hotels-best-view": {
-      "temp_c": 6.24,
-      "feels_like_c": 2.91,
+      "temp_c": 5.87,
+      "feels_like_c": 2.23,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
       "clouds_pct": 100,
-      "visibility_m": 10000,
+      "visibility_m": 5043,
       "sunrise": 1795507063,
       "sunset": 1795535976,
-      "view_index": 72,
-      "view_rating": "Good",
+      "view_index": 36,
+      "view_rating": "Limited",
       "visibility_source": "primary",
       "timezone": "Europe/London",
       "coords": {
@@ -1155,41 +1155,41 @@
         "lng": -2.95859,
         "n_hotels": 9
       },
-      "fetched_at": 1795507322
+      "fetched_at": 1795514527
     },
     "lake-garda-hotels-best-views-romantic-holidays": {
-      "temp_c": 7.43,
-      "feels_like_c": 7.43,
+      "temp_c": 8.98,
+      "feels_like_c": 8.98,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 100,
-      "visibility_m": 10000,
+      "clouds_pct": 96,
+      "visibility_m": 7081,
       "sunrise": 1795501728,
       "sunset": 1795534769,
-      "view_index": 72,
-      "view_rating": "Good",
-      "visibility_source": "airport",
+      "view_index": 57,
+      "view_rating": "Fair",
+      "visibility_source": "primary",
       "timezone": "Europe/Rome",
       "coords": {
         "lat": 45.67091,
         "lng": 10.66754,
         "n_hotels": 8
       },
-      "fetched_at": 1795507323
+      "fetched_at": 1795514528
     },
     "las-vegas-hotels-strip-view": {
-      "temp_c": 9.52,
-      "feels_like_c": 8.58,
-      "condition_id": 802,
-      "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 40,
+      "temp_c": 7.86,
+      "feels_like_c": 6.65,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 0,
       "visibility_m": 10000,
       "sunrise": 1795530402,
       "sunset": 1795566510,
-      "view_index": 87,
-      "view_rating": "Beautiful",
+      "view_index": 92,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "America/Los_Angeles",
       "coords": {
@@ -1197,20 +1197,20 @@
         "lng": -115.1705,
         "n_hotels": 12
       },
-      "fetched_at": 1795507324
+      "fetched_at": 1795514530
     },
     "lisbon-hotels-best-views": {
-      "temp_c": 13.37,
-      "feels_like_c": 13.19,
-      "condition_id": 803,
-      "condition_main": "Clouds",
-      "condition_description": "broken clouds",
+      "temp_c": 14.14,
+      "feels_like_c": 13.96,
+      "condition_id": 310,
+      "condition_main": "Drizzle",
+      "condition_description": "light intensity drizzle rain",
       "clouds_pct": 75,
-      "visibility_m": 10000,
+      "visibility_m": 7000,
       "sunrise": 1795505314,
       "sunset": 1795540696,
-      "view_index": 77,
-      "view_rating": "Good",
+      "view_index": 53,
+      "view_rating": "Fair",
       "visibility_source": "primary",
       "timezone": "Europe/Lisbon",
       "coords": {
@@ -1218,20 +1218,20 @@
         "lng": -9.14661,
         "n_hotels": 22
       },
-      "fetched_at": 1795507325
+      "fetched_at": 1795514531
     },
     "llandudno-seafront-hotels-sea-view": {
-      "temp_c": 7.42,
-      "feels_like_c": 3.72,
-      "condition_id": 804,
-      "condition_main": "Clouds",
-      "condition_description": "overcast clouds",
+      "temp_c": 7.94,
+      "feels_like_c": 3.98,
+      "condition_id": 501,
+      "condition_main": "Rain",
+      "condition_description": "moderate rain",
       "clouds_pct": 100,
-      "visibility_m": 3720,
+      "visibility_m": 5492,
       "sunrise": 1795506964,
       "sunset": 1795536490,
-      "view_index": 24,
-      "view_rating": "Obscured",
+      "view_index": 34,
+      "view_rating": "Limited",
       "visibility_source": "primary",
       "timezone": "Europe/London",
       "coords": {
@@ -1239,19 +1239,19 @@
         "lng": -3.82085,
         "n_hotels": 5
       },
-      "fetched_at": 1795507326
+      "fetched_at": 1795514532
     },
     "london-hotel-views": {
-      "temp_c": 2.72,
-      "feels_like_c": -1.02,
+      "temp_c": 5.04,
+      "feels_like_c": 0.49,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 89,
+      "clouds_pct": 100,
       "visibility_m": 9000,
       "sunrise": 1795505590,
       "sunset": 1795536075,
-      "view_index": 70,
+      "view_index": 68,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/London",
@@ -1260,11 +1260,11 @@
         "lng": -0.09624,
         "n_hotels": 25
       },
-      "fetched_at": 1795507327
+      "fetched_at": 1795514533
     },
     "hotels-los-angeles-best-views": {
-      "temp_c": 14.68,
-      "feels_like_c": 13.74,
+      "temp_c": 14.58,
+      "feels_like_c": 13.53,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -1281,11 +1281,11 @@
         "lng": -118.34115,
         "n_hotels": 14
       },
-      "fetched_at": 1795507329
+      "fetched_at": 1795514534
     },
     "lugano-hotels-best-lake-views": {
-      "temp_c": 4.14,
-      "feels_like_c": 4.14,
+      "temp_c": 7.35,
+      "feels_like_c": 7.35,
       "condition_id": 801,
       "condition_main": "Clouds",
       "condition_description": "few clouds",
@@ -1302,11 +1302,11 @@
         "lng": 8.95836,
         "n_hotels": 9
       },
-      "fetched_at": 1795507330
+      "fetched_at": 1795514535
     },
     "lyon-hotels-best-views": {
-      "temp_c": 6.08,
-      "feels_like_c": 5.13,
+      "temp_c": 7.03,
+      "feels_like_c": 7.03,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
@@ -1323,19 +1323,19 @@
         "lng": 4.83478,
         "n_hotels": 5
       },
-      "fetched_at": 1795507331
+      "fetched_at": 1795514537
     },
     "madeira-best-hotels-ocean-view": {
-      "temp_c": 10.75,
-      "feels_like_c": 10.18,
+      "temp_c": 11.42,
+      "feels_like_c": 10.73,
       "condition_id": 500,
       "condition_main": "Rain",
       "condition_description": "light rain",
       "clouds_pct": 100,
-      "visibility_m": 2293,
+      "visibility_m": 3802,
       "sunrise": 1795506389,
       "sunset": 1795543418,
-      "view_index": 11,
+      "view_index": 21,
       "view_rating": "Obscured",
       "visibility_source": "primary",
       "timezone": "Atlantic/Madeira",
@@ -1344,19 +1344,19 @@
         "lng": -17.05634,
         "n_hotels": 6
       },
-      "fetched_at": 1795507332
+      "fetched_at": 1795514538
     },
     "madrid-hotels-best-views": {
-      "temp_c": 6.8,
-      "feels_like_c": 4.63,
-      "condition_id": 803,
-      "condition_main": "Clouds",
-      "condition_description": "broken clouds",
+      "temp_c": 7.44,
+      "feels_like_c": 6.01,
+      "condition_id": 300,
+      "condition_main": "Drizzle",
+      "condition_description": "light intensity drizzle",
       "clouds_pct": 75,
       "visibility_m": 10000,
       "sunrise": 1795504268,
       "sunset": 1795539129,
-      "view_index": 77,
+      "view_index": 69,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Madrid",
@@ -1365,19 +1365,19 @@
         "lng": -3.70043,
         "n_hotels": 20
       },
-      "fetched_at": 1795507333
+      "fetched_at": 1795514539
     },
     "maldives-hotels-ocean-view": {
       "temp_c": 32.02,
       "feels_like_c": 39.02,
-      "condition_id": 803,
-      "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 78,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
+      "clouds_pct": 69,
       "visibility_m": 10000,
       "sunrise": 1795481781,
       "sunset": 1795524653,
-      "view_index": 76,
+      "view_index": 66,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Indian/Maldives",
@@ -1386,20 +1386,20 @@
         "lng": 73.28575,
         "n_hotels": 11
       },
-      "fetched_at": 1795507334
+      "fetched_at": 1795514540
     },
     "mallorca-hotels-best-sea-views": {
-      "temp_c": 11.29,
-      "feels_like_c": 10.69,
-      "condition_id": 802,
+      "temp_c": 16.04,
+      "feels_like_c": 15.53,
+      "condition_id": 801,
       "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 28,
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
       "visibility_m": 10000,
       "sunrise": 1795502602,
       "sunset": 1795537694,
-      "view_index": 86,
-      "view_rating": "Beautiful",
+      "view_index": 88,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Europe/Madrid",
       "coords": {
@@ -1407,20 +1407,20 @@
         "lng": 2.75657,
         "n_hotels": 8
       },
-      "fetched_at": 1795507335
+      "fetched_at": 1795514541
     },
     "manila-hotels-best-view": {
-      "temp_c": 31.72,
-      "feels_like_c": 37.62,
-      "condition_id": 803,
+      "temp_c": 31.35,
+      "feels_like_c": 37.92,
+      "condition_id": 801,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
       "visibility_m": 10000,
       "sunrise": 1795471272,
       "sunset": 1795512245,
-      "view_index": 77,
-      "view_rating": "Good",
+      "view_index": 90,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Asia/Manila",
       "coords": {
@@ -1428,11 +1428,11 @@
         "lng": 121.02074,
         "n_hotels": 7
       },
-      "fetched_at": 1795507337
+      "fetched_at": 1795514542
     },
     "marrakech-hotels-medina-atlas-view": {
-      "temp_c": 16.92,
-      "feels_like_c": 16.21,
+      "temp_c": 21.92,
+      "feels_like_c": 21.63,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -1449,19 +1449,19 @@
         "lng": -8.00249,
         "n_hotels": 9
       },
-      "fetched_at": 1795507338
+      "fetched_at": 1795514544
     },
     "hotels-marseille-best-view": {
-      "temp_c": 7.77,
-      "feels_like_c": 7.18,
+      "temp_c": 13.47,
+      "feels_like_c": 12.57,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 98,
+      "clouds_pct": 85,
       "visibility_m": 10000,
       "sunrise": 1795502567,
       "sunset": 1795536476,
-      "view_index": 72,
+      "view_index": 75,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Paris",
@@ -1470,18 +1470,18 @@
         "lng": 5.36508,
         "n_hotels": 8
       },
-      "fetched_at": 1795507339
+      "fetched_at": 1795514545
     },
     "melbourne-hotels-best-views": {
-      "temp_c": 18.3,
-      "feels_like_c": 17.36,
+      "temp_c": 15.05,
+      "feels_like_c": 14.07,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
-      "clouds_pct": 4,
+      "clouds_pct": 10,
       "visibility_m": 10000,
-      "sunrise": 1795460092,
-      "sunset": 1795511932,
+      "sunrise": 1795460091,
+      "sunset": 1795511930,
       "view_index": 91,
       "view_rating": "Perfect",
       "visibility_source": "primary",
@@ -1491,19 +1491,19 @@
         "lng": 144.96478,
         "n_hotels": 19
       },
-      "fetched_at": 1795507340
+      "fetched_at": 1795514546
     },
     "mexico-city-hotels-best-views": {
-      "temp_c": 13.39,
-      "feels_like_c": 13.19,
+      "temp_c": 14.5,
+      "feels_like_c": 14.3,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 94,
-      "visibility_m": null,
-      "sunrise": 1795524616,
-      "sunset": 1795564617,
-      "view_index": 81,
+      "clouds_pct": 97,
+      "visibility_m": 10000,
+      "sunrise": 1795524615,
+      "sunset": 1795564616,
+      "view_index": 80,
       "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "America/Mexico_City",
@@ -1512,15 +1512,15 @@
         "lng": -99.17305,
         "n_hotels": 11
       },
-      "fetched_at": 1795507341
+      "fetched_at": 1795514547
     },
     "miami-beach-best-oceanfront-hotels-view": {
-      "temp_c": 19.39,
-      "feels_like_c": 19.73,
+      "temp_c": 19.42,
+      "feels_like_c": 19.77,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 99,
+      "clouds_pct": 97,
       "visibility_m": 10000,
       "sunrise": 1795520714,
       "sunset": 1795559373,
@@ -1533,20 +1533,20 @@
         "lng": -80.12669,
         "n_hotels": 18
       },
-      "fetched_at": 1795507342
+      "fetched_at": 1795514548
     },
     "milan-hotels-best-duomo-views": {
-      "temp_c": 7.69,
-      "feels_like_c": 6.97,
+      "temp_c": 9.01,
+      "feels_like_c": 9.01,
       "condition_id": 701,
       "condition_main": "Mist",
       "condition_description": "mist",
       "clouds_pct": 75,
-      "visibility_m": 2000,
+      "visibility_m": 4000,
       "sunrise": 1795502045,
       "sunset": 1795535161,
-      "view_index": 12,
-      "view_rating": "Obscured",
+      "view_index": 29,
+      "view_rating": "Limited",
       "visibility_source": "primary",
       "timezone": "Europe/Rome",
       "coords": {
@@ -1554,20 +1554,20 @@
         "lng": 9.19221,
         "n_hotels": 11
       },
-      "fetched_at": 1795507343
+      "fetched_at": 1795514550
     },
     "mumbai-hotels-best-sea-view": {
       "temp_c": 34.01,
-      "feels_like_c": 34.49,
+      "feels_like_c": 34.95,
       "condition_id": 711,
       "condition_main": "Smoke",
       "condition_description": "smoke",
-      "clouds_pct": 5,
-      "visibility_m": 3000,
+      "clouds_pct": 20,
+      "visibility_m": 3500,
       "sunrise": 1795483273,
       "sunset": 1795523382,
-      "view_index": 23,
-      "view_rating": "Obscured",
+      "view_index": 28,
+      "view_rating": "Limited",
       "visibility_source": "primary",
       "timezone": "Asia/Kolkata",
       "coords": {
@@ -1575,19 +1575,19 @@
         "lng": 72.82603,
         "n_hotels": 10
       },
-      "fetched_at": 1795507345
+      "fetched_at": 1795514551
     },
     "munich-hotels-best-views": {
-      "temp_c": -2.58,
-      "feels_like_c": -2.58,
-      "condition_id": 800,
-      "condition_main": "Clear",
-      "condition_description": "clear sky",
-      "clouds_pct": 2,
+      "temp_c": 1.55,
+      "feels_like_c": -0.65,
+      "condition_id": 801,
+      "condition_main": "Clouds",
+      "condition_description": "few clouds",
+      "clouds_pct": 18,
       "visibility_m": 10000,
       "sunrise": 1795502009,
       "sunset": 1795534054,
-      "view_index": 92,
+      "view_index": 88,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Europe/Berlin",
@@ -1596,11 +1596,11 @@
         "lng": 11.57131,
         "n_hotels": 7
       },
-      "fetched_at": 1795507346
+      "fetched_at": 1795514552
     },
     "mykonos-hotels-best-views": {
       "temp_c": 15.98,
-      "feels_like_c": 15.64,
+      "feels_like_c": 15.38,
       "condition_id": 801,
       "condition_main": "Clouds",
       "condition_description": "few clouds",
@@ -1617,11 +1617,11 @@
         "lng": 25.35476,
         "n_hotels": 17
       },
-      "fetched_at": 1795507347
+      "fetched_at": 1795514553
     },
     "myrtle-beach-hotels-ocean-view": {
-      "temp_c": 16.83,
-      "feels_like_c": 17.08,
+      "temp_c": 16.35,
+      "feels_like_c": 16.47,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
@@ -1638,40 +1638,40 @@
         "lng": -78.86776,
         "n_hotels": 14
       },
-      "fetched_at": 1795507348
+      "fetched_at": 1795514554
     },
     "napa-valley-hotels-vineyard-view": {
-      "temp_c": 6.18,
-      "feels_like_c": 6.18,
+      "temp_c": 7.13,
+      "feels_like_c": 7.13,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 97,
+      "clouds_pct": 99,
       "visibility_m": 10000,
       "sunrise": 1795532480,
       "sunset": 1795567916,
       "view_index": 80,
       "view_rating": "Beautiful",
-      "visibility_source": "airport",
+      "visibility_source": "primary",
       "timezone": "America/Los_Angeles",
       "coords": {
         "lat": 38.44315,
         "lng": -122.42799,
         "n_hotels": 7
       },
-      "fetched_at": 1795507349
+      "fetched_at": 1795514555
     },
     "new-york-hotel-views": {
-      "temp_c": 8.26,
-      "feels_like_c": 4.4,
-      "condition_id": 800,
-      "condition_main": "Clear",
-      "condition_description": "clear sky",
-      "clouds_pct": 0,
+      "temp_c": 7.13,
+      "feels_like_c": 3.02,
+      "condition_id": 801,
+      "condition_main": "Clouds",
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
       "visibility_m": 10000,
-      "sunrise": 1795521200,
-      "sunset": 1795555939,
-      "view_index": 92,
+      "sunrise": 1795521201,
+      "sunset": 1795555941,
+      "view_index": 90,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "America/New_York",
@@ -1680,20 +1680,20 @@
         "lng": -73.98619,
         "n_hotels": 32
       },
-      "fetched_at": 1795507350
+      "fetched_at": 1795514557
     },
     "niagara-falls-hotels-with-falls-view-canada": {
-      "temp_c": 2.48,
-      "feels_like_c": -1.46,
-      "condition_id": 801,
+      "temp_c": 1.68,
+      "feels_like_c": -1.95,
+      "condition_id": 803,
       "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 19,
+      "condition_description": "broken clouds",
+      "clouds_pct": 75,
       "visibility_m": 10000,
       "sunrise": 1795522815,
       "sunset": 1795556771,
-      "view_index": 90,
-      "view_rating": "Perfect",
+      "view_index": 83,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "America/Toronto",
       "coords": {
@@ -1701,19 +1701,19 @@
         "lng": -79.08052,
         "n_hotels": 10
       },
-      "fetched_at": 1795507351
+      "fetched_at": 1795514558
     },
     "nice-hotels-best-beach-views": {
-      "temp_c": 8.92,
-      "feels_like_c": 5.49,
-      "condition_id": 803,
+      "temp_c": 15.32,
+      "feels_like_c": 14.92,
+      "condition_id": 804,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
+      "condition_description": "overcast clouds",
+      "clouds_pct": 99,
       "visibility_m": 10000,
-      "sunrise": 1795502182,
-      "sunset": 1795535947,
-      "view_index": 77,
+      "sunrise": 1795502181,
+      "sunset": 1795535948,
+      "view_index": 72,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Paris",
@@ -1722,18 +1722,18 @@
         "lng": 7.26685,
         "n_hotels": 6
       },
-      "fetched_at": 1795507353
+      "fetched_at": 1795514559
     },
     "osaka-hotels-best-views": {
-      "temp_c": 12.65,
-      "feels_like_c": 12.37,
+      "temp_c": 11.6,
+      "feels_like_c": 10.98,
       "condition_id": 803,
       "condition_main": "Clouds",
       "condition_description": "broken clouds",
       "clouds_pct": 75,
       "visibility_m": 10000,
       "sunrise": 1795470006,
-      "sunset": 1795506559,
+      "sunset": 1795506561,
       "view_index": 83,
       "view_rating": "Beautiful",
       "visibility_source": "primary",
@@ -1743,19 +1743,19 @@
         "lng": 135.49847,
         "n_hotels": 14
       },
-      "fetched_at": 1795507354
+      "fetched_at": 1795514560
     },
     "paris-hotels-eiffel-tower-view": {
-      "temp_c": 3.49,
-      "feels_like_c": 0.62,
-      "condition_id": 803,
+      "temp_c": 5.55,
+      "feels_like_c": 3.1,
+      "condition_id": 804,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
+      "condition_description": "overcast clouds",
+      "clouds_pct": 100,
       "visibility_m": 10000,
       "sunrise": 1795504392,
       "sunset": 1795536119,
-      "view_index": 77,
+      "view_index": 72,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Paris",
@@ -1764,15 +1764,15 @@
         "lng": 2.30702,
         "n_hotels": 28
       },
-      "fetched_at": 1795507355
+      "fetched_at": 1795514561
     },
     "paros-hotels-best-sea-views": {
-      "temp_c": 16.55,
-      "feels_like_c": 16.19,
+      "temp_c": 16.28,
+      "feels_like_c": 15.66,
       "condition_id": 801,
       "condition_main": "Clouds",
       "condition_description": "few clouds",
-      "clouds_pct": 21,
+      "clouds_pct": 20,
       "visibility_m": 10000,
       "sunrise": 1795496824,
       "sunset": 1795532694,
@@ -1785,20 +1785,20 @@
         "lng": 25.20621,
         "n_hotels": 10
       },
-      "fetched_at": 1795507356
+      "fetched_at": 1795514562
     },
     "perth-hotels-best-views": {
-      "temp_c": 21.06,
-      "feels_like_c": 20.74,
-      "condition_id": 803,
+      "temp_c": 19.42,
+      "feels_like_c": 18.98,
+      "condition_id": 801,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
+      "condition_description": "few clouds",
+      "clouds_pct": 20,
       "visibility_m": 10000,
-      "sunrise": 1795467906,
-      "sunset": 1795518085,
-      "view_index": 77,
-      "view_rating": "Good",
+      "sunrise": 1795467907,
+      "sunset": 1795518084,
+      "view_index": 88,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Australia/Perth",
       "coords": {
@@ -1806,19 +1806,19 @@
         "lng": 115.86837,
         "n_hotels": 10
       },
-      "fetched_at": 1795507357
+      "fetched_at": 1795514564
     },
     "phuket-hotels-best-beachfront-views": {
-      "temp_c": 32.33,
-      "feels_like_c": 37.23,
-      "condition_id": 500,
+      "temp_c": 31.33,
+      "feels_like_c": 38.33,
+      "condition_id": 501,
       "condition_main": "Rain",
-      "condition_description": "light rain",
-      "clouds_pct": 20,
+      "condition_description": "moderate rain",
+      "clouds_pct": 40,
       "visibility_m": 10000,
       "sunrise": 1795476108,
       "sunset": 1795518301,
-      "view_index": 76,
+      "view_index": 72,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Asia/Bangkok",
@@ -1827,19 +1827,19 @@
         "lng": 98.33371,
         "n_hotels": 16
       },
-      "fetched_at": 1795507358
+      "fetched_at": 1795514565
     },
     "pismo-beach-hotels-best-oceanfront-views": {
-      "temp_c": 10.69,
-      "feels_like_c": 10.01,
-      "condition_id": 801,
+      "temp_c": 9.35,
+      "feels_like_c": 7.65,
+      "condition_id": 802,
       "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 17,
+      "condition_description": "scattered clouds",
+      "clouds_pct": 31,
       "visibility_m": 10000,
       "sunrise": 1795531585,
       "sunset": 1795567960,
-      "view_index": 90,
+      "view_index": 88,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "America/Los_Angeles",
@@ -1848,20 +1848,20 @@
         "lng": -120.65502,
         "n_hotels": 10
       },
-      "fetched_at": 1795507359
+      "fetched_at": 1795514566
     },
     "playa-del-carmen-hotels-resorts-best-beachfront-views": {
-      "temp_c": 23.3,
-      "feels_like_c": 24.19,
-      "condition_id": 803,
+      "temp_c": 23.86,
+      "feels_like_c": 24.76,
+      "condition_id": 804,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 79,
-      "visibility_m": 10000,
+      "condition_description": "overcast clouds",
+      "clouds_pct": 91,
+      "visibility_m": 9377,
       "sunrise": 1795521827,
       "sunset": 1795561577,
-      "view_index": 83,
-      "view_rating": "Beautiful",
+      "view_index": 79,
+      "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "America/Cancun",
       "coords": {
@@ -1869,20 +1869,20 @@
         "lng": -87.03385,
         "n_hotels": 11
       },
-      "fetched_at": 1795507361
+      "fetched_at": 1795514567
     },
     "porto-hotels-best-views": {
-      "temp_c": 11.76,
-      "feels_like_c": 11.13,
+      "temp_c": 12.3,
+      "feels_like_c": 12.04,
       "condition_id": 502,
       "condition_main": "Rain",
       "condition_description": "heavy intensity rain",
-      "clouds_pct": 75,
-      "visibility_m": 10000,
-      "sunrise": 1795505565,
-      "sunset": 1795540191,
-      "view_index": 52,
-      "view_rating": "Fair",
+      "clouds_pct": 40,
+      "visibility_m": 6000,
+      "sunrise": 1795505564,
+      "sunset": 1795540192,
+      "view_index": 37,
+      "view_rating": "Limited",
       "visibility_source": "primary",
       "timezone": "Europe/Lisbon",
       "coords": {
@@ -1890,11 +1890,11 @@
         "lng": -8.61681,
         "n_hotels": 17
       },
-      "fetched_at": 1795507362
+      "fetched_at": 1795514568
     },
     "prague-hotels-best-old-town-river-castle-views": {
-      "temp_c": -1.56,
-      "feels_like_c": -6.63,
+      "temp_c": 0.2,
+      "feels_like_c": -3.75,
       "condition_id": 803,
       "condition_main": "Clouds",
       "condition_description": "broken clouds",
@@ -1911,19 +1911,19 @@
         "lng": 14.41406,
         "n_hotels": 18
       },
-      "fetched_at": 1795507363
+      "fetched_at": 1795514570
     },
     "puerto-varas-hotels-best-views": {
-      "temp_c": 8.21,
-      "feels_like_c": 7.47,
-      "condition_id": 500,
-      "condition_main": "Rain",
-      "condition_description": "light rain",
+      "temp_c": 9.21,
+      "feels_like_c": 8.87,
+      "condition_id": 804,
+      "condition_main": "Clouds",
+      "condition_description": "overcast clouds",
       "clouds_pct": 100,
       "visibility_m": 10000,
       "sunrise": 1795511791,
       "sunset": 1795564823,
-      "view_index": 68,
+      "view_index": 72,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "America/Santiago",
@@ -1932,15 +1932,15 @@
         "lng": -72.89256,
         "n_hotels": 3
       },
-      "fetched_at": 1795507364
+      "fetched_at": 1795514571
     },
     "puglia-hotels-best-views": {
-      "temp_c": 9.09,
-      "feels_like_c": 6.96,
+      "temp_c": 12.09,
+      "feels_like_c": 10.84,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
-      "clouds_pct": 4,
+      "clouds_pct": 3,
       "visibility_m": 10000,
       "sunrise": 1795499199,
       "sunset": 1795533969,
@@ -1953,20 +1953,20 @@
         "lng": 17.60193,
         "n_hotels": 9
       },
-      "fetched_at": 1795507365
+      "fetched_at": 1795514572
     },
     "rio-de-janeiro-luxury-hotels-best-beachfront-views": {
-      "temp_c": 25.11,
-      "feels_like_c": 26.13,
-      "condition_id": 804,
+      "temp_c": 26.26,
+      "feels_like_c": 26.26,
+      "condition_id": 802,
       "condition_main": "Clouds",
-      "condition_description": "overcast clouds",
-      "clouds_pct": 100,
+      "condition_description": "scattered clouds",
+      "clouds_pct": 40,
       "visibility_m": 10000,
       "sunrise": 1795507156,
-      "sunset": 1795555215,
-      "view_index": 72,
-      "view_rating": "Good",
+      "sunset": 1795555213,
+      "view_index": 84,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "America/Sao_Paulo",
       "coords": {
@@ -1974,17 +1974,17 @@
         "lng": -43.22043,
         "n_hotels": 16
       },
-      "fetched_at": 1795507366
+      "fetched_at": 1795514573
     },
     "rome-luxury-hotels-best-city-views": {
-      "temp_c": 10.21,
-      "feels_like_c": 9.22,
+      "temp_c": 13.65,
+      "feels_like_c": 12.9,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
       "clouds_pct": 0,
       "visibility_m": 10000,
-      "sunrise": 1795500622,
+      "sunrise": 1795500620,
       "sunset": 1795535005,
       "view_index": 92,
       "view_rating": "Perfect",
@@ -1995,19 +1995,19 @@
         "lng": 12.48126,
         "n_hotels": 18
       },
-      "fetched_at": 1795507367
+      "fetched_at": 1795514574
     },
     "saint-tropez-luxury-hotels-best-centre-ville-sea-views": {
-      "temp_c": 5.41,
-      "feels_like_c": 3.46,
+      "temp_c": 10.41,
+      "feels_like_c": 9.2,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
-      "clouds_pct": 87,
+      "clouds_pct": 93,
       "visibility_m": 10000,
       "sunrise": 1795502258,
       "sunset": 1795536175,
-      "view_index": 75,
+      "view_index": 73,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Paris",
@@ -2016,19 +2016,19 @@
         "lng": 6.63521,
         "n_hotels": 7
       },
-      "fetched_at": 1795507368
+      "fetched_at": 1795514575
     },
     "salzburg-hotels-best-old-town-city-center-views": {
-      "temp_c": -1.37,
-      "feels_like_c": -4.13,
-      "condition_id": 801,
-      "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 20,
+      "temp_c": 1.48,
+      "feels_like_c": 1.48,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 3,
       "visibility_m": 10000,
       "sunrise": 1795501586,
       "sunset": 1795533772,
-      "view_index": 88,
+      "view_index": 91,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Europe/Vienna",
@@ -2037,11 +2037,11 @@
         "lng": 13.03968,
         "n_hotels": 9
       },
-      "fetched_at": 1795507370
+      "fetched_at": 1795514577
     },
     "san-diego-hotels-best-beachfront-views": {
-      "temp_c": 15.34,
-      "feels_like_c": 14.84,
+      "temp_c": 14.46,
+      "feels_like_c": 13.84,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -2058,32 +2058,32 @@
         "lng": -117.22109,
         "n_hotels": 11
       },
-      "fetched_at": 1795507371
+      "fetched_at": 1795514578
     },
     "san-francisco-hotels-best-golden-gate-views": {
-      "temp_c": 9.15,
-      "feels_like_c": 8.39,
-      "condition_id": 803,
+      "temp_c": 9.5,
+      "feels_like_c": 9.5,
+      "condition_id": 804,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
+      "condition_description": "overcast clouds",
+      "clouds_pct": 95,
       "visibility_m": 10000,
-      "sunrise": 1795532381,
+      "sunrise": 1795532382,
       "sunset": 1795568008,
-      "view_index": 83,
+      "view_index": 81,
       "view_rating": "Beautiful",
-      "visibility_source": "primary",
+      "visibility_source": "airport",
       "timezone": "America/Los_Angeles",
       "coords": {
         "lat": 37.79503,
         "lng": -122.41276,
         "n_hotels": 12
       },
-      "fetched_at": 1795507372
+      "fetched_at": 1795514579
     },
     "best-ocean-view-hotels-santa-monica": {
-      "temp_c": 15.34,
-      "feels_like_c": 14.42,
+      "temp_c": 14.54,
+      "feels_like_c": 13.46,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -2100,11 +2100,11 @@
         "lng": -118.49199,
         "n_hotels": 10
       },
-      "fetched_at": 1795507373
+      "fetched_at": 1795514580
     },
     "santorini-hotels-best-oia-imerovigli-caldera-views": {
-      "temp_c": 19.38,
-      "feels_like_c": 19.31,
+      "temp_c": 18.82,
+      "feels_like_c": 18.72,
       "condition_id": 801,
       "condition_main": "Clouds",
       "condition_description": "few clouds",
@@ -2121,20 +2121,20 @@
         "lng": 25.3991,
         "n_hotels": 15
       },
-      "fetched_at": 1795507374
+      "fetched_at": 1795514581
     },
     "seattle-hotels-best-space-needle-waterfront-views": {
-      "temp_c": 8.7,
-      "feels_like_c": 8.7,
-      "condition_id": 500,
+      "temp_c": 7.24,
+      "feels_like_c": 4.83,
+      "condition_id": 501,
       "condition_main": "Rain",
-      "condition_description": "light rain",
+      "condition_description": "moderate rain",
       "clouds_pct": 100,
-      "visibility_m": 2633,
-      "sunrise": 1795447586,
-      "sunset": 1795479935,
-      "view_index": 15,
-      "view_rating": "Obscured",
+      "visibility_m": 10000,
+      "sunrise": 1795534068,
+      "sunset": 1795566286,
+      "view_index": 68,
+      "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "America/Los_Angeles",
       "coords": {
@@ -2142,19 +2142,19 @@
         "lng": -122.33797,
         "n_hotels": 13
       },
-      "fetched_at": 1795507375
+      "fetched_at": 1795514583
     },
     "sedona-hotels-best-red-rock-views": {
-      "temp_c": 6.01,
-      "feels_like_c": 4.76,
-      "condition_id": 802,
-      "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 34,
+      "temp_c": 6.12,
+      "feels_like_c": 2.91,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 0,
       "visibility_m": 10000,
       "sunrise": 1795529415,
       "sunset": 1795565869,
-      "view_index": 88,
+      "view_index": 92,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "America/Phoenix",
@@ -2163,19 +2163,19 @@
         "lng": -111.77888,
         "n_hotels": 9
       },
-      "fetched_at": 1795507376
+      "fetched_at": 1795514584
     },
     "seoul-hotels-best-views": {
-      "temp_c": 0.42,
-      "feels_like_c": -5.87,
-      "condition_id": 801,
-      "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 20,
+      "temp_c": -0.95,
+      "feels_like_c": -5.88,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 0,
       "visibility_m": 10000,
       "sunrise": 1795472443,
       "sunset": 1795508206,
-      "view_index": 88,
+      "view_index": 92,
       "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Asia/Seoul",
@@ -2184,11 +2184,11 @@
         "lng": 126.99454,
         "n_hotels": 17
       },
-      "fetched_at": 1795507378
+      "fetched_at": 1795514585
     },
     "seville-hotels-best-views": {
-      "temp_c": 11.64,
-      "feels_like_c": 11,
+      "temp_c": 13.72,
+      "feels_like_c": 13.18,
       "condition_id": 803,
       "condition_main": "Clouds",
       "condition_description": "broken clouds",
@@ -2205,11 +2205,11 @@
         "lng": -5.99237,
         "n_hotels": 13
       },
-      "fetched_at": 1795507379
+      "fetched_at": 1795514586
     },
     "shanghai-hotels-best-views": {
-      "temp_c": 11.96,
-      "feels_like_c": 9.99,
+      "temp_c": 9.96,
+      "feels_like_c": 7.54,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -2226,11 +2226,11 @@
         "lng": 121.49853,
         "n_hotels": 11
       },
-      "fetched_at": 1795507380
+      "fetched_at": 1795514587
     },
     "sharm-el-sheikh-hotels-red-sea-view": {
-      "temp_c": 24.94,
-      "feels_like_c": 25.29,
+      "temp_c": 24.65,
+      "feels_like_c": 24.97,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -2247,19 +2247,19 @@
         "lng": 34.37352,
         "n_hotels": 7
       },
-      "fetched_at": 1795507381
+      "fetched_at": 1795514588
     },
     "shenzhen-hotels-best-views": {
-      "temp_c": 21.91,
-      "feels_like_c": 22.01,
-      "condition_id": 802,
+      "temp_c": 19.72,
+      "feels_like_c": 19.65,
+      "condition_id": 803,
       "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 50,
+      "condition_description": "broken clouds",
+      "clouds_pct": 56,
       "visibility_m": 10000,
       "sunrise": 1795473736,
       "sunset": 1795513125,
-      "view_index": 82,
+      "view_index": 85,
       "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Asia/Shanghai",
@@ -2268,20 +2268,20 @@
         "lng": 114.05407,
         "n_hotels": 6
       },
-      "fetched_at": 1795507382
+      "fetched_at": 1795514590
     },
     "sicily-hotels-best-etna-sea-views": {
-      "temp_c": 10.87,
-      "feels_like_c": 10.08,
-      "condition_id": 802,
+      "temp_c": 12.86,
+      "feels_like_c": 11.82,
+      "condition_id": 801,
       "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 28,
+      "condition_description": "few clouds",
+      "clouds_pct": 21,
       "visibility_m": 10000,
       "sunrise": 1795499435,
       "sunset": 1795535070,
-      "view_index": 86,
-      "view_rating": "Beautiful",
+      "view_index": 88,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "Europe/Rome",
       "coords": {
@@ -2289,20 +2289,20 @@
         "lng": 14.81672,
         "n_hotels": 14
       },
-      "fetched_at": 1795507383
+      "fetched_at": 1795514591
     },
     "singapore-hotels-best-views": {
-      "temp_c": 28.11,
-      "feels_like_c": 33.92,
-      "condition_id": 501,
+      "temp_c": 27.72,
+      "feels_like_c": 32.56,
+      "condition_id": 500,
       "condition_main": "Rain",
-      "condition_description": "moderate rain",
-      "clouds_pct": 40,
+      "condition_description": "light rain",
+      "clouds_pct": 75,
       "visibility_m": 8000,
       "sunrise": 1795474183,
       "sunset": 1795517578,
-      "view_index": 65,
-      "view_rating": "Good",
+      "view_index": 58,
+      "view_rating": "Fair",
       "visibility_source": "primary",
       "timezone": "Asia/Singapore",
       "coords": {
@@ -2310,20 +2310,20 @@
         "lng": 103.85316,
         "n_hotels": 15
       },
-      "fetched_at": 1795507384
+      "fetched_at": 1795514592
     },
     "sintra-hotels-best-views": {
-      "temp_c": 15.08,
-      "feels_like_c": 14.92,
-      "condition_id": 803,
-      "condition_main": "Clouds",
-      "condition_description": "broken clouds",
+      "temp_c": 13.49,
+      "feels_like_c": 13.35,
+      "condition_id": 310,
+      "condition_main": "Drizzle",
+      "condition_description": "light intensity drizzle rain",
       "clouds_pct": 75,
-      "visibility_m": 10000,
+      "visibility_m": 3000,
       "sunrise": 1795505388,
       "sunset": 1795540746,
-      "view_index": 77,
-      "view_rating": "Good",
+      "view_index": 17,
+      "view_rating": "Obscured",
       "visibility_source": "primary",
       "timezone": "Europe/Lisbon",
       "coords": {
@@ -2331,19 +2331,19 @@
         "lng": -9.40467,
         "n_hotels": 8
       },
-      "fetched_at": 1795507386
+      "fetched_at": 1795514593
     },
     "south-tyrol-hotels-best-views": {
-      "temp_c": -8.84,
-      "feels_like_c": -8.84,
+      "temp_c": -4.84,
+      "feels_like_c": -4.84,
       "condition_id": 802,
       "condition_main": "Clouds",
       "condition_description": "scattered clouds",
-      "clouds_pct": 25,
+      "clouds_pct": 47,
       "visibility_m": 10000,
       "sunrise": 1795501662,
       "sunset": 1795534296,
-      "view_index": 87,
+      "view_index": 83,
       "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Europe/Rome",
@@ -2352,20 +2352,20 @@
         "lng": 11.79282,
         "n_hotels": 16
       },
-      "fetched_at": 1795507387
+      "fetched_at": 1795514594
     },
     "stockholm-hotels-best-waterfront-views": {
-      "temp_c": 0.52,
-      "feels_like_c": -3.73,
+      "temp_c": 0.61,
+      "feels_like_c": -3.25,
       "condition_id": 803,
       "condition_main": "Clouds",
       "condition_description": "broken clouds",
       "clouds_pct": 75,
-      "visibility_m": 8000,
+      "visibility_m": 4500,
       "sunrise": 1795503731,
       "sunset": 1795529209,
-      "view_index": 69,
-      "view_rating": "Good",
+      "view_index": 34,
+      "view_rating": "Limited",
       "visibility_source": "primary",
       "timezone": "Europe/Stockholm",
       "coords": {
@@ -2373,20 +2373,20 @@
         "lng": 18.07545,
         "n_hotels": 10
       },
-      "fetched_at": 1795507388
+      "fetched_at": 1795514596
     },
     "sydney-hotels-best-harbour-views": {
-      "temp_c": 17.04,
-      "feels_like_c": 17.15,
-      "condition_id": 804,
+      "temp_c": 16.46,
+      "feels_like_c": 16.54,
+      "condition_id": 803,
       "condition_main": "Clouds",
-      "condition_description": "overcast clouds",
-      "clouds_pct": 100,
-      "visibility_m": 6000,
+      "condition_description": "broken clouds",
+      "clouds_pct": 75,
+      "visibility_m": 10000,
       "sunrise": 1795459170,
       "sunset": 1795509852,
-      "view_index": 46,
-      "view_rating": "Fair",
+      "view_index": 83,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Australia/Sydney",
       "coords": {
@@ -2394,20 +2394,20 @@
         "lng": 151.21432,
         "n_hotels": 22
       },
-      "fetched_at": 1795507389
+      "fetched_at": 1795514597
     },
     "sao-paulo-hotels-best-views": {
-      "temp_c": 21.34,
-      "feels_like_c": 22.01,
-      "condition_id": 801,
+      "temp_c": 22.21,
+      "feels_like_c": 22.91,
+      "condition_id": 802,
       "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 20,
-      "visibility_m": 10000,
-      "sunrise": 1795507917,
-      "sunset": 1795556113,
-      "view_index": 90,
-      "view_rating": "Perfect",
+      "condition_description": "scattered clouds",
+      "clouds_pct": 40,
+      "visibility_m": 8000,
+      "sunrise": 1795507918,
+      "sunset": 1795556114,
+      "view_index": 76,
+      "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "America/Sao_Paulo",
       "coords": {
@@ -2415,20 +2415,20 @@
         "lng": -46.68432,
         "n_hotels": 10
       },
-      "fetched_at": 1795507390
+      "fetched_at": 1795514598
     },
     "tokyo-hotels-best-skyline-views": {
-      "temp_c": 17.7,
-      "feels_like_c": 17.51,
-      "condition_id": 520,
-      "condition_main": "Rain",
-      "condition_description": "light intensity shower rain",
+      "temp_c": 12.77,
+      "feels_like_c": 12.45,
+      "condition_id": 803,
+      "condition_main": "Clouds",
+      "condition_description": "broken clouds",
       "clouds_pct": 75,
       "visibility_m": 10000,
       "sunrise": 1795469118,
       "sunset": 1795505408,
-      "view_index": 58,
-      "view_rating": "Fair",
+      "view_index": 83,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "Asia/Tokyo",
       "coords": {
@@ -2436,20 +2436,20 @@
         "lng": 139.74893,
         "n_hotels": 24
       },
-      "fetched_at": 1795507391
+      "fetched_at": 1795514599
     },
     "toronto-hotels-best-skyline-views": {
-      "temp_c": 0.72,
-      "feels_like_c": -4.09,
-      "condition_id": 801,
+      "temp_c": -0.16,
+      "feels_like_c": -2.72,
+      "condition_id": 802,
       "condition_main": "Clouds",
-      "condition_description": "few clouds",
-      "clouds_pct": 20,
+      "condition_description": "scattered clouds",
+      "clouds_pct": 40,
       "visibility_m": 10000,
-      "sunrise": 1795522987,
-      "sunset": 1795556744,
-      "view_index": 90,
-      "view_rating": "Perfect",
+      "sunrise": 1795522990,
+      "sunset": 1795556745,
+      "view_index": 87,
+      "view_rating": "Beautiful",
       "visibility_source": "primary",
       "timezone": "America/Toronto",
       "coords": {
@@ -2457,20 +2457,20 @@
         "lng": -79.39164,
         "n_hotels": 10
       },
-      "fetched_at": 1795507392
+      "fetched_at": 1795514600
     },
     "umhlanga-hotels-best-ocean-views": {
-      "temp_c": 26.19,
-      "feels_like_c": 26.19,
-      "condition_id": 800,
-      "condition_main": "Clear",
-      "condition_description": "clear sky",
-      "clouds_pct": 0,
+      "temp_c": 26.6,
+      "feels_like_c": 26.6,
+      "condition_id": 500,
+      "condition_main": "Rain",
+      "condition_description": "light rain",
+      "clouds_pct": 75,
       "visibility_m": 10000,
       "sunrise": 1795488536,
       "sunset": 1795538160,
-      "view_index": 92,
-      "view_rating": "Perfect",
+      "view_index": 65,
+      "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Africa/Johannesburg",
       "coords": {
@@ -2478,18 +2478,18 @@
         "lng": 31.0833,
         "n_hotels": 4
       },
-      "fetched_at": 1795507393
+      "fetched_at": 1795514601
     },
     "vancouver-hotels-best-city-waterfront-views": {
-      "temp_c": 7.31,
-      "feels_like_c": 3.42,
+      "temp_c": 7.03,
+      "feels_like_c": 3.54,
       "condition_id": 501,
       "condition_main": "Rain",
       "condition_description": "moderate rain",
       "clouds_pct": 100,
       "visibility_m": 10000,
       "sunrise": 1795534618,
-      "sunset": 1795566111,
+      "sunset": 1795566110,
       "view_index": 68,
       "view_rating": "Good",
       "visibility_source": "primary",
@@ -2499,19 +2499,19 @@
         "lng": -123.1202,
         "n_hotels": 14
       },
-      "fetched_at": 1795507395
+      "fetched_at": 1795514603
     },
     "vancouver-island-hotels-best-views": {
-      "temp_c": 3.6,
-      "feels_like_c": -1.33,
+      "temp_c": 3.66,
+      "feels_like_c": -1.26,
       "condition_id": 501,
       "condition_main": "Rain",
       "condition_description": "moderate rain",
       "clouds_pct": 100,
-      "visibility_m": 2098,
+      "visibility_m": 2217,
       "sunrise": 1795534819,
       "sunset": 1795566554,
-      "view_index": 11,
+      "view_index": 12,
       "view_rating": "Obscured",
       "visibility_source": "primary",
       "timezone": "America/Vancouver",
@@ -2520,11 +2520,11 @@
         "lng": -124.46223,
         "n_hotels": 7
       },
-      "fetched_at": 1795507396
+      "fetched_at": 1795514604
     },
     "venice-hotels-best-canal-views": {
-      "temp_c": 7.18,
-      "feels_like_c": 4.48,
+      "temp_c": 8.39,
+      "feels_like_c": 5.97,
       "condition_id": 803,
       "condition_main": "Clouds",
       "condition_description": "broken clouds",
@@ -2541,11 +2541,11 @@
         "lng": 12.33739,
         "n_hotels": 15
       },
-      "fetched_at": 1795507397
+      "fetched_at": 1795514605
     },
     "vienna-hotels-best-city-centre-cathedral-views": {
-      "temp_c": 1.11,
-      "feels_like_c": -4.55,
+      "temp_c": 3.69,
+      "feels_like_c": -1.25,
       "condition_id": 800,
       "condition_main": "Clear",
       "condition_description": "clear sky",
@@ -2562,11 +2562,11 @@
         "lng": 16.37553,
         "n_hotels": 15
       },
-      "fetched_at": 1795507398
+      "fetched_at": 1795514606
     },
     "virginia-beach-hotels-oceanfront-views": {
-      "temp_c": 12.18,
-      "feels_like_c": 11.44,
+      "temp_c": 10.94,
+      "feels_like_c": 10.1,
       "condition_id": 804,
       "condition_main": "Clouds",
       "condition_description": "overcast clouds",
@@ -2583,20 +2583,20 @@
         "lng": -75.98342,
         "n_hotels": 14
       },
-      "fetched_at": 1795507399
+      "fetched_at": 1795514607
     },
     "washington-dc-hotels-best-national-mall-views": {
-      "temp_c": 7.22,
-      "feels_like_c": 4.8,
-      "condition_id": 802,
-      "condition_main": "Clouds",
-      "condition_description": "scattered clouds",
-      "clouds_pct": 40,
+      "temp_c": 5.75,
+      "feels_like_c": 2.45,
+      "condition_id": 800,
+      "condition_main": "Clear",
+      "condition_description": "clear sky",
+      "clouds_pct": 0,
       "visibility_m": 10000,
       "sunrise": 1795521644,
       "sunset": 1795556958,
-      "view_index": 87,
-      "view_rating": "Beautiful",
+      "view_index": 92,
+      "view_rating": "Perfect",
       "visibility_source": "primary",
       "timezone": "America/New_York",
       "coords": {
@@ -2604,19 +2604,19 @@
         "lng": -77.03179,
         "n_hotels": 12
       },
-      "fetched_at": 1795507400
+      "fetched_at": 1795514609
     },
     "zurich-hotels-best-old-town-lake-views": {
-      "temp_c": 2.89,
-      "feels_like_c": 0.84,
-      "condition_id": 803,
+      "temp_c": 3.5,
+      "feels_like_c": 1.56,
+      "condition_id": 804,
       "condition_main": "Clouds",
-      "condition_description": "broken clouds",
-      "clouds_pct": 75,
+      "condition_description": "overcast clouds",
+      "clouds_pct": 100,
       "visibility_m": 8000,
-      "sunrise": 1795502578,
+      "sunrise": 1795502576,
       "sunset": 1795534942,
-      "view_index": 69,
+      "view_index": 65,
       "view_rating": "Good",
       "visibility_source": "primary",
       "timezone": "Europe/Zurich",
@@ -2625,7 +2625,7 @@
         "lng": 8.54173,
         "n_hotels": 11
       },
-      "fetched_at": 1795507401
+      "fetched_at": 1795514610
     }
   }
 }
